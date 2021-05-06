@@ -1126,4 +1126,9 @@
          and one pSIM) -->
     <integer name="config_num_physical_slots">2</integer>
 
+    <!-- Whether to show a warning notification when device's skin temperature is high. -->
+    <integer name="config_showTemperatureWarning">1</integer>
+
+    <!-- Whether to show a alarm dialog when device's usb port is overheating. -->
+    <integer name="config_showUsbPortAlarm">1</integer>
 </resources>
