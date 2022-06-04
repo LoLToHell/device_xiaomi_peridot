@@ -12,3 +12,15 @@ dontaudit surfaceflinger vendor_file:file read;
 
 # BootAnimation
 dontaudit bootanim vendor_file:file read;
+
+dontaudit {
+  hal_audio_default
+  hal_graphics_composer_default
+  hal_sensors_default
+  rild
+  vendor_adpl
+  vendor_cnd
+  vendor_dpmd
+  vendor_hal_imsrtp
+  vendor_sensors_qti
+} vendor_diag_device:chr_file rw_file_perms;
