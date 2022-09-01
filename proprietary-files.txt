@@ -285,6 +285,12 @@ vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so
 vendor/lib64/vendor.qti.hardware.bttpi-V3-ndk.so
 vendor/lib64/vendor.qti.hardware.fm@1.0.so
 
+# Bluetooth (LDAC & LHDC)
+system/lib64/libldacBT_abr.so|a047c11e7c506f48de5580e6a819e659fa208f1b
+system/lib64/libldacBT_enc.so|d859ffa7da473040417234de67fe6342abec6968 
+system_ext/lib64/liblhdcBT_enc.so|6575185953e386e9a56ed4f40c16da59a575de56
+system_ext/lib64/liblhdc.so|b8e88fc77386ca814dc56aea5c0ad2a0cc19119b
+
 # CDSP
 vendor/bin/cdsprpcd
 vendor/etc/init/vendor.qti.cdsprpc-service.rc
