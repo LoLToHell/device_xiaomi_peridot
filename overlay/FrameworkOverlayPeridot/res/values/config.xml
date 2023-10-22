@@ -1143,7 +1143,7 @@
     <item name="config_appTransitionAnimationDurationScaleDefault" format="float" type="dimen">0.8</item>
 
     <!-- Auto-brightness sensor type string -->
-    <string name="config_displayLightSensorType">"android.sensor.light"</string>
+    <string name="config_displayLightSensorType">"xiaomi.sensor.ambientlight.raw"</string>
 
      <!-- Whether to enable fp unlock when screen turns off on udfps devices -->
      <bool name="config_screen_off_udfps_enabled">true</bool>
