@@ -104,6 +104,7 @@ BOARD_KERNEL_CMDLINE := \
     mtdoops.fingerprint=peridot:$(VOLTAGE_VERSION)
 
 BOARD_KERNEL_CMDLINE += rcupdate.rcu_expedited=1 rcu_nocbs=all rcutree.enable_rcu_lazy
+BOARD_KERNEL_CMDLINE += androidboot.init_fatal_reboot_target=recovery
 BOARD_BOOTCONFIG := \
     androidboot.console=0 \
     androidboot.hardware=qcom \
