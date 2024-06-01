@@ -439,6 +439,8 @@ on boot
     chown system system /sys/class/qcom-battery/night_charging
     chmod 0660 /sys/class/qcom-battery/night_charging
 
+    write /sys/block/sda/queue/wbt_lat_usec 75000
+
 on property:sys.boot_completed=1
     exec -- /system/bin/sleep 7
     # MIUI ADD:Thermal_NodeReq
