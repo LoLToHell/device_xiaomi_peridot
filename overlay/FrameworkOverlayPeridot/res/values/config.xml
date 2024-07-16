@@ -110,12 +110,12 @@
 
     <!-- Indicate available ColorDisplayManager.COLOR_MODE_xxx. -->
     <integer-array name="config_availableColorModes">
-        <item>258</item>
-        <item>256</item>
-        <item>257</item>
-        <item>269</item>
-        <item>268</item>
-        <item>267</item>
+        <item>258</item> <!-- vivid -->
+        <item>256</item> <!-- saturated -->
+        <item>257</item> <!-- standard -->
+        <item>269</item> <!-- original -->
+        <item>268</item> <!-- p3 -->
+        <item>267</item> <!-- srgb -->
     </integer-array>
 
     <!-- Shutdown if the battery temperature exceeds (this value * 0.1) Celsius. -->
@@ -1002,5 +1002,28 @@
     
     <!-- Whether the device supports Smart Pixels -->
     <bool name="config_supportSmartPixels">true</bool>
+
+    <!-- Display settings screen, Color mode options. Must be the same length and order as
+         config_color_mode_options_values below. Only the values that also appear in
+         frameworks/base/core/res/res/values/config.xml's config_availableColorModes are shown. -->
+    <string-array name="config_color_mode_options_strings" translatable="false">
+        <item>Vivid</item>
+        <item>Saturated</item>
+        <item>Standard</item>
+        <item>Original</item>
+        <item>P3</item>
+        <item>sRGB</item>
+    </string-array>
+    <!-- Display settings screen, Color mode options. Must be the same length and order as
+         config_color_mode_options_strings above. Only the values that also appear in
+         frameworks/base/core/res/res/values/config.xml's config_availableColorModes are shown. -->
+    <integer-array name="config_color_mode_options_values" translatable="false">
+        <item>258</item>
+        <item>256</item>
+        <item>257</item>
+        <item>269</item>
+        <item>268</item>
+        <item>267</item>
+    </integer-array>
 
 </resources>
