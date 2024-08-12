@@ -1060,7 +1060,6 @@ vendor/lib64/libQ6MSFR_manager_stub.so
 vendor/lib64/libSNPESample.so
 vendor/lib64/libcameraopt.so
 vendor/lib64/libface3d_dev.so
-vendor/lib64/libmemunreachable.so;MODULE_SUFFIX=_vendor
 vendor/lib64/libmialgo.so
 vendor/lib64/libos.so
 vendor/lib64/libpowercore.so
