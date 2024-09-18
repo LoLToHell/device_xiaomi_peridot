@@ -66,7 +66,7 @@ for dm in $dmpts; do
 done
 
 # Configure memory parameters
-echo 100 > /proc/sys/vm/swappiness
+echo 60 > /proc/sys/vm/swappiness
 
 # Disable periodic kcompactd wakeups. We do not use THP, so having many
 # huge pages is not as necessary.
