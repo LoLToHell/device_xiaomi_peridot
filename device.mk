@@ -405,6 +405,9 @@ PRODUCT_COPY_FILES += \
 # Platform
 TARGET_BOARD_PLATFORM := pineapple
 
+# Privapp permissions
+PRODUCT_PROPERTY_OVERRIDES += ro.control_privapp_permissions=log
+
 # QMI
 PRODUCT_PACKAGES += \
     libcurl.vendor \
