@@ -379,6 +379,7 @@ PRODUCT_PACKAGES += \
     ApertureOverlayPeridot \
     CarrierConfigOverlayPeridot \
     FrameworkOverlayPeridot \
+    NfcOverlayPeridot \
     SecureElementOverlayPeridot \
     SettingsOverlayPeridot \
     SettingsProviderOverlayPeridotPOCO \
