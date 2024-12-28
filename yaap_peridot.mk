@@ -25,10 +25,12 @@ PRODUCT_MODEL := 24069PC21G
 
 # Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="peridot_global-user 14 UKQ1.240116.001 V816.0.9.0.UNPMIXM release-keys" \
-    BuildFingerprint=POCO/peridot_global/peridot:14/UKQ1.240116.001/V816.0.9.0.UNPMIXM:user/release-keys \
+    BuildDesc="peridot_global-user 14 UKQ1.240116.001 V816.0.10.0.UNPMIXM release-keys" \
+    BuildFingerprint=POCO/peridot_global/peridot:14/UKQ1.240116.001/V816.0.10.0.UNPMIXM:user/release-keys \
     DeviceName=peridot \
-    DeviceProduct=peridot_global
+    DeviceProduct=peridot_global \
+    SystemName=peridot_global \
+    SystemDevice=peridot
 
 # GMS
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
