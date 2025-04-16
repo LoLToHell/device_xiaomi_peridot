@@ -1114,7 +1114,4 @@
      <!-- Whether devices suports in-display fingerprint when screen is off -->
     <bool name="config_supportsScreenOffUdfps">true</bool>
 
-    <!-- Default component for QR code scanner -->
-    <string name="config_defaultQrCodeComponent">com.xiaomi.scanner/com.xiaomi.scanner.app.ScanActivity</string>
-
 </resources>
