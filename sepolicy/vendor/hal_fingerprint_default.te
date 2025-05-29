@@ -40,6 +40,7 @@ r_dir_file(hal_fingerprint_default, firmware_file);
 allow hal_fingerprint_default init:unix_stream_socket connectto;
 allow hal_fingerprint_default property_socket:sock_file write;
 allow hal_fingerprint_default self:netlink_socket { create read };
+allow hal_fingerprint_default self:capability { sys_nice };
 
 add_service(hal_fingerprint_default, hal_fingerprint_service_xiaomi);
 add_service(hal_fingerprint_default, vendor_hal_fingerprint_service_xiaomi);
