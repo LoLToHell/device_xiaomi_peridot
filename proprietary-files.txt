@@ -1660,6 +1660,12 @@ vendor/lib64/libxlog.so
 vendor/lib64/vendor.qti.hardware.ListenSoundModel@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.ListenSoundModel@1.0.so
 
+# MiCharge
+vendor/bin/hw/vendor.xiaomi.hardware.micharge-service
+vendor/etc/init/vendor.xiaomi.hardware.micharge-service.rc
+vendor/etc/vintf/manifest/vendor.xiaomi.hardware.micharge.xml
+vendor/lib64/vendor.xiaomi.hardware.micharge-V2-ndk.so
+
 # Media
 vendor/bin/hw/vendor.qti.media.c2@1.0-service
 vendor/bin/hw/vendor.qti.media.c2audio@1.0-service
