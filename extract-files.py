@@ -94,7 +94,12 @@ blob_fixups: blob_fixups_user_type = {
         .binary_regex_replace(rb'persist\.vendor\.radio\.poweron_opt', rb'persist.vendor.radio.poweron_ign'),
 
     'vendor/lib64/vendor.libdpmframework.so': blob_fixup()
+        .add_needed('libbinder_shim.so')
         .add_needed('libhidlbase_shim.so'),
+
+    ('vendor/lib64/libcne.so',
+     'vendor/bin/qms'): blob_fixup()
+        .add_needed('libbinder_shim.so'),
 
     ('vendor/etc/media_codecs.xml',
      'vendor/etc/media_codecs_cliffs_v0.xml',
