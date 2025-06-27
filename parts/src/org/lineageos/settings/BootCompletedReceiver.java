@@ -38,6 +38,7 @@ import org.lineageos.settings.touchsampling.TouchSamplingUtils;
 import org.lineageos.settings.touchsampling.TouchSamplingService;
 import org.lineageos.settings.touchsampling.TouchSamplingTileService;
 import org.lineageos.settings.soundcontrol.SoundControlUtils;
+import org.lineageos.settings.chargecontrol.ChargeControlService;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
     private static final String TAG = "XiaomiParts";
@@ -105,6 +106,9 @@ public class BootCompletedReceiver extends BroadcastReceiver {
 
         // Start Touch Sampling Service
         context.startServiceAsUser(new Intent(context, TouchSamplingService.class), UserHandle.CURRENT);
+
+        // Start Charge Control Service
+        context.startServiceAsUser(new Intent(context, ChargeControlService.class), UserHandle.CURRENT);
     }
 
     private void overrideHdrTypes(Context context) {
