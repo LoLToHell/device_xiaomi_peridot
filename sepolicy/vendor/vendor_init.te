@@ -5,5 +5,9 @@ set_prop(vendor_init, vendor_thermal_normal_prop)
 set_prop(vendor_init, vendor_touchfeature_prop)
 get_prop(vendor_init, vendor_nfc_prop)
 set_prop(vendor_init, vendor_nfc_prop)
+allow vendor_init proc_sched:file { open write };
+allow vendor_init sysfs:file { open read write };
+allow vendor_init proc:file { open read write };
+allow vendor_init cgroup:file { getattr read write };
 allow vendor_init nfc_device:chr_file r_file_perms;
 allow vendor_init sysfs:lnk_file setattr;

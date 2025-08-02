@@ -60,6 +60,7 @@ allow hal_fingerprint_default {
 get_prop(hal_fingerprint_default, {
     vendor_fp_prop
     vendor_panel_info_prop
+    vendor_camera_prop
 });
 
 set_prop(hal_fingerprint_default, {
