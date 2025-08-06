@@ -1,5 +1,7 @@
 # Logging
 SPAMMY_LOG_TAGS := \
+    artd \
+    ArtService \
     MiClstc \
     MiEvent \
     MiStcImpl \
