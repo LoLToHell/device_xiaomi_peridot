@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/voltage_peridot.mk
+    $(LOCAL_DIR)/lineage_peridot.mk
