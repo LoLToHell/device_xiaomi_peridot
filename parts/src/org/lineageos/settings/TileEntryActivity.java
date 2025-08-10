@@ -26,7 +26,6 @@ import android.util.Log;
 
 import androidx.annotation.Nullable;
 
-import org.lineageos.settings.thermal.ThermalSettingsActivity;
 import org.lineageos.settings.saturation.SaturationActivity;
 import org.lineageos.settings.gamebar.GameBarSettingsActivity;
 import org.lineageos.settings.turbocharging.TurboChargingActivity;
@@ -35,7 +34,6 @@ import org.lineageos.settings.chargecontrol.ChargeControlActivity;
 
 public class TileEntryActivity extends Activity {
     private static final String TAG = "TileEntryActivity";
-    private static final String THERMAL_TILE = "org.lineageos.settings.thermal.ThermalTileService";
     private static final String SATURATION_TILE = "org.lineageos.settings.saturation.SaturationTileService";
     private static final String GAMEBAR_TILE = "org.lineageos.settings.gamebar.GameBarTileService";
     private static final String TURBOCHG_TILE = "org.lineageos.settings.turbocharging.TurboChargingTile";
@@ -55,9 +53,7 @@ public class TileEntryActivity extends Activity {
         String sourceClassName = sourceComponent.getClassName();
         Intent intent = null;
 
-        if (THERMAL_TILE.equals(sourceClassName)) {
-            intent = new Intent(this, ThermalSettingsActivity.class);
-        } else if (SATURATION_TILE.equals(sourceClassName)) {
+        if (SATURATION_TILE.equals(sourceClassName)) {
             intent = new Intent(this, SaturationActivity.class);
         } else if (GAMEBAR_TILE.equals(sourceClassName)) {
             intent = new Intent(this, GameBarSettingsActivity.class);
