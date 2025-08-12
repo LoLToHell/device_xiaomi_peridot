@@ -5,3 +5,7 @@ hal_client_domain(system_server, hal_dms)
 allow platform_app hal_aidlbgservice_service:service_manager find;
 
 allow system_server zygote_tmpfs:file write;
+
+# Extcon access for audio codec and HDMI state
+allow system_server sysfs_extcon:dir search;
+allow system_server sysfs_extcon:file { getattr open read write };
