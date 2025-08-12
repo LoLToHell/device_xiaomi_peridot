@@ -719,7 +719,7 @@
       "PowerHint": "GAME",
       "Node": "ThermalMessage",
       "Duration": 0,
-      "Value": "19"
+      "Value": "6"
     },
     {
       "PowerHint": "FP_BOOST",
