@@ -17,6 +17,8 @@ $(call inherit-product, device/xiaomi/peridot/device.mk)
 # Inherit from the MiuiCamera setup
 $(call inherit-product-if-exists, device/xiaomi/peridot-miuicamera/device.mk)
 
+TARGET_DISABLE_EPPE := true
+
 PRODUCT_NAME := lineage_peridot
 PRODUCT_DEVICE := peridot
 PRODUCT_MANUFACTURER := Xiaomi
