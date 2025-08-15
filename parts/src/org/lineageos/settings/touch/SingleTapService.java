@@ -68,7 +68,7 @@ public class SingleTapService extends Service {
         );
 
         cr.registerContentObserver(
-            Settings.Secure.getUriFor(Settings.Secure.DOZE_SINGLE_TAP_GESTURE_AMBIENT),
+            Settings.Secure.getUriFor(Settings.Secure.DOZE_TAP_SCREEN_GESTURE),
             true,
             new ContentObserver(new Handler()) {
                 @Override
@@ -101,7 +101,7 @@ public class SingleTapService extends Service {
         try {
             boolean enabled = Settings.Secure.getInt(
                 getContentResolver(),
-                Settings.Secure.DOZE_SINGLE_TAP_GESTURE_AMBIENT,
+                Settings.Secure.DOZE_TAP_SCREEN_GESTURE,
                 0
             ) == 1;
             if (mTouchFeature != null) {

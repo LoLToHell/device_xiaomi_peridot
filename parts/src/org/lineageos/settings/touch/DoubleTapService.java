@@ -69,7 +69,7 @@ public class DoubleTapService extends Service {
         );
 
         cr.registerContentObserver(
-            Settings.Secure.getUriFor(Settings.Secure.DOZE_DOUBLE_TAP_GESTURE_AMBIENT),
+            Settings.Secure.getUriFor(Settings.Secure.DOZE_DOUBLE_TAP_GESTURE),
             true,
             new ContentObserver(new Handler()) {
                 @Override
@@ -102,7 +102,7 @@ public class DoubleTapService extends Service {
         try {
             boolean enabled = Settings.Secure.getInt(
                 getContentResolver(),
-                Settings.Secure.DOZE_DOUBLE_TAP_GESTURE_AMBIENT,
+                Settings.Secure.DOZE_DOUBLE_TAP_GESTURE,
                 0
             ) == 1;
             if (mTouchFeature != null) {
