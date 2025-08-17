@@ -417,6 +417,8 @@ PRODUCT_PACKAGES += \
     vendor_modem_firmware_mountpoint \
     vendor_vm-system_mountpoint
 
+$(call soong_config_set,rfs,mpss_firmware_symlink_target,modem_firmware)
+
 # Network
 PRODUCT_PACKAGES += \
     android.system.net.netd-V1-ndk.vendor \
