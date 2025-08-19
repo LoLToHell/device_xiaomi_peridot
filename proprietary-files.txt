@@ -3,119 +3,59 @@
 # ACDB
 odm/etc/acdbdata/Fluence/Fluence_acdb_cal.acdb:odm/etc/acdbdata/cliffs_mtp/Fluence_acdb_cal.acdb
 odm/etc/acdbdata/Fluence/foursemi/Fluence_acdb_cal_fs.acdb:odm/etc/acdbdata/cliffs_mtp/foursemi/Fluence_acdb_cal_fs.acdb
-vendor/etc/acdbdata/IDP_UPD/IDP_UPD_acdb_cal.acdb
-vendor/etc/acdbdata/IDP_UPD/IDP_UPD_workspaceFileXml.qwsp
-vendor/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__3.0.0_0.0__eai_2.10_enpu3.pmd
-vendor/etc/acdbdata/ffv_models/ffv__5.0.1_0.1__eai_2.10_enpu3.pmd
-vendor/etc/acdbdata/ffv_models/ffv__6.2.5_0.1__eai_3.4__enpu_v4.pmd
-vendor/etc/acdbdata/ffv_models/ffv__7.0.1_0.1__eai_3.4_enpu_v4.pmd
-vendor/etc/acdbdata/haptics_data/click.pcm
-vendor/etc/acdbdata/haptics_data/double_click.pcm
-vendor/etc/acdbdata/haptics_data/heavy_click.pcm
-vendor/etc/acdbdata/haptics_data/pop.pcm
-vendor/etc/acdbdata/haptics_data/reserved_1.pcm
-vendor/etc/acdbdata/haptics_data/reserved_2.pcm
-vendor/etc/acdbdata/haptics_data/reserved_3.pcm
-vendor/etc/acdbdata/haptics_data/reserved_4.pcm
-vendor/etc/acdbdata/haptics_data/reserved_5.pcm
-vendor/etc/acdbdata/haptics_data/reserved_6.pcm
-vendor/etc/acdbdata/haptics_data/reserved_7.pcm
-vendor/etc/acdbdata/haptics_data/reserved_8.pcm
-vendor/etc/acdbdata/haptics_data/texture_tick.pcm
-vendor/etc/acdbdata/haptics_data/thud.pcm
-vendor/etc/acdbdata/haptics_data/tick.pcm
-vendor/etc/acdbdata/nn_ns_models/fai__11.0.1.0_1.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.0__eai_3.4_enpuv4.pmd
-vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__3.1.0_0.0__3.2.0_0.0__eai_2.7_enpu3.pmd
 vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.36_enpu2.pmd
 vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.10.pmd
 vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.36_enpu2_comp.pmd
-vendor/etc/acdbdata/nn_ns_models/fai__2.6.3_0.0__3.0.0_0.0__3.1.1.0_0.0__3.2.0_0.0__eai_2.7_enpu_v3.pmd
-vendor/etc/acdbdata/nn_ns_models/fai__2.6.3_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.0_enpuv4.pmd
-vendor/etc/acdbdata/nn_ns_models/fai__2.6.5_0.0__3.0.0_0.0__3.1.0_0.0__3.2.0_0.0__eai_2.10_enpuv3.pmd
-vendor/etc/acdbdata/nn_ns_models/fai__2.7.20_0.0__3.0.0_0.0__3.1.2_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd
 vendor/etc/acdbdata/nn_ns_models/fai__2.7.20_0.0__3.0.0_0.0__eai_1.36_enpu2.pmd
-vendor/etc/acdbdata/nn_ns_models/fai__2.7.20_0.0__3.0.0_0.0__eai_3.4_enpuv4.pmd
-vendor/etc/acdbdata/nn_ns_models/fai__2.7.2_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd
 vendor/etc/acdbdata/nn_ns_models/fai__2.7.2_0.0__3.0.0_0.0__eai_1.36_enpu2.pmd
-vendor/etc/acdbdata/nn_ns_models/fai__2.7.5_0.0__3.0.0_0.0__3.1.1.0_0.0__3.2.0_0.0__eai_2.7_enpu_v3.pmd
-vendor/etc/acdbdata/nn_ns_models/fai__2.7.5_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.0_enpuv4.pmd
-vendor/etc/acdbdata/nn_ns_models/fai__2.7.6_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd
-vendor/etc/acdbdata/nn_ns_models/fai__2.7.7_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd
-vendor/etc/acdbdata/nn_ns_models/fai__2.7.8_0.0__3.0.0_0.0__3.1.0_0.0__3.2.0_0.0__eai_2.10_enpuv3.pmd
-vendor/etc/acdbdata/nn_ns_models/fai__2.7.8_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.0_enpuv4.pmd
-vendor/etc/acdbdata/nn_ns_models/fai__2.9.0_1.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd
-vendor/etc/acdbdata/nn_ns_models/fai__2.9.2_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd
-vendor/etc/acdbdata/nn_ns_models/fai__2.9.2_1.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.0__eai_3.4_enpuv4.pmd
-vendor/etc/acdbdata/nn_ns_models/fai__4.6.3_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd
 vendor/etc/acdbdata/nn_ns_models/fai__4.8.14_1.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd
-vendor/etc/acdbdata/nn_ns_models/fai__4.8.14_1.0__3.0.0_0.0__3.1.2_0.0__3.2.0_0.1__11.0.1.4_1.0__eai_3.4_enpuv4.pmd
-vendor/etc/acdbdata/nn_ns_models/fai__4.8.2_0.0__3.0.0_0.0__3.1.1.0_0.0__3.2.0_0.0__eai_2.7_enpu_v3.pmd
-vendor/etc/acdbdata/nn_ns_models/fai__4.8.3_0.0__3.0.0_0.0__3.1.0_0.0__3.2.0_0.0__eai_2.10_enpuv3.pmd
-vendor/etc/acdbdata/nn_ns_models/fai__4.8.4_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.0_enpuv4.pmd
-vendor/etc/acdbdata/nn_ns_models/fai__4.8.4_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd
-vendor/etc/acdbdata/nn_ns_models/fai__8.0.2_0.0__3.0.0_0.0__3.1.1_0.0__3.2.0_0.1__eai_3.4_enpuv4.pmd
 vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd
-vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_2.10_enpuv3.pmd
-vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_3.4_enpuv4.pmd
-vendor/etc/acdbdata/pineapple_aim/AIM_acdb_cal.acdb
-vendor/etc/acdbdata/pineapple_aim/AIM_workspaceFileXml.qwsp
-vendor/etc/acdbdata/pineapple_cdp/CDP_acdb_cal.acdb
-vendor/etc/acdbdata/pineapple_cdp/CDP_workspaceFileXml.qwsp
-vendor/etc/acdbdata/pineapple_mtp/MTP_acdb_cal.acdb
-vendor/etc/acdbdata/pineapple_mtp/MTP_workspaceFileXml.qwsp
-vendor/etc/acdbdata/pineapple_qrd/QRD_acdb_cal.acdb
-vendor/etc/acdbdata/pineapple_qrd/QRD_workspaceFileXml.qwsp
-vendor/etc/acdbdata/pineapple_qrd_sku2/QRD_pineapple_sku2_acdb_cal.acdb
-vendor/etc/acdbdata/pineapple_qrd_sku2/QRD_pineapple_sku2_workspaceFileXml.qwsp
 
 # ADSP
 vendor/bin/adsprpcd
-vendor/bin/loadalgo
 vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc
 vendor/lib64/libadsp_default_listener.so
-vendor/lib64/libadsprpc.so
-vendor/lib64/libloadalgo_stub.so
 vendor/lib64/libvmmem.so
 
 # ADSP modules
-odm/lib/rfsa/adsp/libmctfengine_skel.so
-odm/lib/rfsa/adsp/libbitml_nsp_skel.so
-odm/lib/rfsa/adsp/libarcsoft_beauty_hvx_skel.so
-odm/lib/rfsa/adsp/libarc_htp_driver_skel.so
-odm/lib/rfsa/adsp/libmlawbpostproc_dsp_skel.so
-odm/lib/rfsa/adsp/libmialgo_basic_cdsp_skel.so
-odm/lib/rfsa/adsp/libSnpeHtpV75Skel.so;SYMLINK=vendor/lib/rfsa/adsp/libSnpeHtpV75Skel.so
-odm/lib/rfsa/adsp/libmialgo_bokeh_effect_cdsp_skel.so
-odm/lib/rfsa/adsp/libhme_dsp_skel.so
-odm/lib/rfsa/adsp/libmialgo_mc_bokeh_cdsp_skel.so
-odm/lib/rfsa/adsp/libadsp_jpege_skel.so
-odm/lib/rfsa/adsp/libmialgo_ell_cdsp_skel.so
-odm/lib/rfsa/adsp/libQnnSystem.so
-odm/lib/rfsa/adsp/libmialgo_rfs_cdsp_skel.so
-odm/lib/rfsa/adsp/libmialgo_bokeh_depth_cdsp_skel.so
-odm/lib/rfsa/adsp/libdsp_streamer_binning.so
+odm/lib/rfsa/adsp/capi_elus_rx.so
 odm/lib/rfsa/adsp/capi_elus_tx.so
-odm/lib/rfsa/adsp/libQnnHtpV75Skel.so
-odm/lib/rfsa/adsp/libQnnHtpV73Skel.so
 odm/lib/rfsa/adsp/libCalculator_skel.so
-odm/lib/rfsa/adsp/libmialgo_ai_process_cdsp_skel.so
-odm/lib/rfsa/adsp/libQnnSaver.so
-odm/lib/rfsa/adsp/libQnnHtpV75.so
 odm/lib/rfsa/adsp/libQnnHtpV73.so
 odm/lib/rfsa/adsp/libQnnHtpV73QemuDriver.so
-odm/lib/rfsa/adsp/capi_elus_rx.so
+odm/lib/rfsa/adsp/libQnnHtpV73Skel.so
+odm/lib/rfsa/adsp/libQnnHtpV75.so
+odm/lib/rfsa/adsp/libQnnHtpV75Skel.so
+odm/lib/rfsa/adsp/libQnnSaver.so
+odm/lib/rfsa/adsp/libQnnSystem.so
+odm/lib/rfsa/adsp/libSnpeHtpV75Skel.so;SYMLINK=vendor/lib/rfsa/adsp/libSnpeHtpV75Skel.so
+odm/lib/rfsa/adsp/libadsp_jpege_skel.so
+odm/lib/rfsa/adsp/libarc_htp_driver_skel.so
+odm/lib/rfsa/adsp/libarcsoft_beauty_hvx_skel.so
+odm/lib/rfsa/adsp/libbitml_nsp_skel.so
+odm/lib/rfsa/adsp/libdsp_streamer_binning.so
+odm/lib/rfsa/adsp/libhme_dsp_skel.so
+odm/lib/rfsa/adsp/libmctfengine_skel.so
+odm/lib/rfsa/adsp/libmialgo_ai_process_cdsp_skel.so
+odm/lib/rfsa/adsp/libmialgo_basic_cdsp_skel.so
+odm/lib/rfsa/adsp/libmialgo_bokeh_depth_cdsp_skel.so
+odm/lib/rfsa/adsp/libmialgo_bokeh_effect_cdsp_skel.so
+odm/lib/rfsa/adsp/libmialgo_ell_cdsp_skel.so
+odm/lib/rfsa/adsp/libmialgo_mc_bokeh_cdsp_skel.so
+odm/lib/rfsa/adsp/libmialgo_rfs_cdsp_skel.so
+odm/lib/rfsa/adsp/libmlawbpostproc_dsp_skel.so
 odm/mount/camera/lib/rfsa/adsp/libSnpeHtpV73Skel.so:vendor/lib/rfsa/adsp/libSnpeHtpV73Skel.so
 odm/mount/camera/lib64/rfs/dsp/libbitml_nsp_73nb_skel.so:vendor/lib64/rfs/dsp/libbitml_nsp_73nb_skel.so
-vendor/lib/rfsa/adsp/libeye_tracking_dsp_sample_skel.so
-vendor/lib/rfsa/adsp/nearby.napp_header;MODULE=nearby.napp_header
-vendor/lib/rfsa/adsp/libqvr_cam_dsp_driver_skel.so
 vendor/lib/rfsa/adsp/chre_qsh_shim.so
 vendor/lib/rfsa/adsp/libDspIOProxy_skel.so
-vendor/lib/rfsa/adsp/libqvr_3dof_tracker_skel.so
-vendor/lib/rfsa/adsp/libqvr_dsp_driver_skel.so
 vendor/lib/rfsa/adsp/libdsp_streamer_qvrcam_receiver.so
-vendor/lib/rfsa/adsp/libtracker_6dof_skel_8450.so
+vendor/lib/rfsa/adsp/libeye_tracking_dsp_sample_skel.so
 vendor/lib/rfsa/adsp/libhalide_hexagon_remote_skel.so
+vendor/lib/rfsa/adsp/libqvr_3dof_tracker_skel.so
+vendor/lib/rfsa/adsp/libqvr_cam_dsp_driver_skel.so
+vendor/lib/rfsa/adsp/libqvr_dsp_driver_skel.so
+vendor/lib/rfsa/adsp/libtracker_6dof_skel_8450.so
+vendor/lib/rfsa/adsp/nearby.napp_header;MODULE=nearby.napp_header
 vendor/lib/rfsa/adsp/nearby.so
 
 # ANT+
@@ -194,8 +134,8 @@ odm/lib64/libawcal.so;MAKE_COPY_RULE_ONLY
 odm/lib64/libcrussp.so;MAKE_COPY_RULE_ONLY
 odm/lib64/libfsalgocal.so;MAKE_COPY_RULE_ONLY
 odm/lib64/libvoipspacespeech.so;MAKE_COPY_RULE_ONLY
-system_ext/lib64/libtfa98xx_cal_tfa9873.so
 system_ext/lib64/libtfa98xx_cal.so
+system_ext/lib64/libtfa98xx_cal_tfa9873.so
 vendor/etc/audio_cloud_control_white_list.xml
 vendor/etc/models/acd/environment.eai
 vendor/etc/models/acd/event.eai
@@ -208,6 +148,7 @@ vendor/lib64/libVoiceSdk.so
 vendor/lib64/lib_bt_lhdc.so;MAKE_COPY_RULE_ONLY
 vendor/lib64/lib_misound_asc.so;MAKE_COPY_RULE_ONLY
 vendor/lib64/libadm.so;MAKE_COPY_RULE_ONLY
+vendor/lib64/libadsprpc.so
 vendor/lib64/libar-acdb.so;MAKE_COPY_RULE_ONLY
 vendor/lib64/libar-gpr.so;MAKE_COPY_RULE_ONLY
 vendor/lib64/libar-gsl.so;MAKE_COPY_RULE_ONLY
@@ -233,7 +174,6 @@ vendor/lib64/libmisfpsop.so
 vendor/lib64/libmisops.so
 vendor/lib64/libmisoundfx_ext.so
 vendor/lib64/libmisoundsa.so
-vendor/lib64/libmisoundsa_fx.so
 vendor/lib64/libpal_net_if.so
 vendor/lib64/libpalclient.so;MAKE_COPY_RULE_ONLY
 vendor/lib64/libqtigefar.so;MAKE_COPY_RULE_ONLY
@@ -247,24 +187,13 @@ vendor/lib64/vendor.qti.voiceprint@1.0.so;MAKE_COPY_RULE_ONLY
 
 # Audio soundfx
 vendor/lib64/soundfx/libasphere.so
-vendor/lib64/soundfx/libaudiopreprocessing.so
-vendor/lib64/soundfx/libbundlewrapper.so
 vendor/lib64/soundfx/libdlbvol.so
-vendor/lib64/soundfx/libdownmix.so
-vendor/lib64/soundfx/libdynproc.so
-vendor/lib64/soundfx/libeffectproxy.so
-vendor/lib64/soundfx/libhapticgenerator.so
 vendor/lib64/soundfx/libhwdap.so
-vendor/lib64/soundfx/libldnhncr.so
-vendor/lib64/soundfx/libmisoundfx_n2.so
 vendor/lib64/soundfx/libquasar.so
-vendor/lib64/soundfx/libreverbwrapper.so
 vendor/lib64/soundfx/libspatializer.so
 vendor/lib64/soundfx/libswgamedap.so
 vendor/lib64/soundfx/libswspatializer.so
-vendor/lib64/soundfx/libspatializer_fx.so
 vendor/lib64/soundfx/libswvqe.so
-vendor/lib64/soundfx/libvisualizer.so
 
 # Audio FX modules - from qssi-user-14-UKQ1.230924.001-1702916091049-release-keys
 vendor/lib64/soundfx/libqcbassboost.so|e655270002aef6e9eb79774b16d2cda408fc3be8
@@ -294,6 +223,7 @@ vendor/lib64/libbluetooth_audio_session_qti.so
 vendor/lib64/libbluetooth_audio_session_qti_2_1.so
 vendor/lib64/libbt-hidlclient.so
 vendor/lib64/libbtnv.so
+vendor/lib64/libsoc_helper.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so
 vendor/lib64/vendor.qti.hardware.bttpi-V3-ndk.so
@@ -312,13 +242,11 @@ vendor/lib64/libcdsp_default_listener.so
 vendor/lib64/libcdsprpc.so
 vendor/lib64/libmdsprpc.so
 vendor/lib64/libsdsprpc.so
-vendor/lib64/libsysmon_cdsp_skel.so
 
 # CIT Sensor
 odm/bin/hw/vendor.xiaomi.sensor.citsensorservice.aidl
 odm/etc/init/vendor.xiaomi.sensor.citsensorservice.aidl.rc
 odm/etc/vintf/manifest/vendor.xiaomi.sensor.citsensorservice.aidl.xml
-odm/etc/cit_param_config.json
 vendor/lib64/vendor.xiaomi.sensor.citsensorservice-V1-ndk.so
 
 # CNE
@@ -353,11 +281,9 @@ vendor/lib64/libnsposal.so
 vendor/lib64/libnspresource.so
 vendor/lib64/libnspscheduler.so
 vendor/lib64/libnspsession.so
-vendor/lib64/libnspsuperresolutionserviceextension.so
 vendor/lib64/libnsptransaction.so
 vendor/lib64/libqms.so
 vendor/lib64/libqms_client.so
-vendor/lib64/libqms_xiaomi.so
 vendor/lib64/libshsc.so
 vendor/lib64/libwms.so
 vendor/lib64/libwqe.so
@@ -422,8 +348,58 @@ vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml
 vendor/etc/cne/wqeclient/VZW/VZW_profile7.xml
 
 # Camera
-odm/bin/hw/misensor_camera
 odm/bin/hw/vendor.qti.camera.provider-service_64
+odm/etc/camera/102_SummerDay.png
+odm/etc/camera/103_Fantasy.png
+odm/etc/camera/104_Meet.png
+odm/etc/camera/105_WindSing.png
+odm/etc/camera/106_Lost.png
+odm/etc/camera/107_Central.png
+odm/etc/camera/108_NorthernEurope.png
+odm/etc/camera/109_Rome.png
+odm/etc/camera/110_BlackGold.png
+odm/etc/camera/111_GreenOrange.png
+odm/etc/camera/112_CyberPunk.png
+odm/etc/camera/113_BlackIce.png
+odm/etc/camera/121_Bleach.png
+odm/etc/camera/122_Thriller.png
+odm/etc/camera/123_TealOrange.png
+odm/etc/camera/124_JapaneseStyle.png
+odm/etc/camera/125_Latin.png
+odm/etc/camera/126_Fantasy2.png
+odm/etc/camera/127_Creamy.png
+odm/etc/camera/128_Sepia.png
+odm/etc/camera/129_Vivid.png
+odm/etc/camera/130_Natural.png
+odm/etc/camera/131_Monochrome.png
+odm/etc/camera/132_MonochromeHighContrast.png
+odm/etc/camera/133_MonochromeBrown.png
+odm/etc/camera/134_MonochromeBlue.png
+odm/etc/camera/135_Classical.png
+odm/etc/camera/136_Filene.png
+odm/etc/camera/137_GreenNight.png
+odm/etc/camera/138_LiteratureAndArt.png
+odm/etc/camera/139_OrangeHoney.png
+odm/etc/camera/140_Romance.png
+odm/etc/camera/141_FR500.png
+odm/etc/camera/142_FE250.png
+odm/etc/camera/143_RedLantern.png
+odm/etc/camera/144_RedHero.png
+odm/etc/camera/145_TactileBlackWhite.png
+odm/etc/camera/146_TactileGreen.png
+odm/etc/camera/147_Neutral.png
+odm/etc/camera/148_Mild.png
+odm/etc/camera/149_LilyWhite.png
+odm/etc/camera/150_Bright.png
+odm/etc/camera/151_Fresh.png
+odm/etc/camera/152_Limpid.png
+odm/etc/camera/153_KC64.png
+odm/etc/camera/154_V250.png
+odm/etc/camera/155_H400.png
+odm/etc/camera/156_ColdWhite.png
+odm/etc/camera/157_Native.png
+odm/etc/camera/158_BWClassical.png
+odm/etc/camera/159_Flowers.png
 odm/etc/camera/GpuKernelRepo.pb
 odm/etc/camera/af_class_all.dlc
 odm/etc/camera/af_class_human.dlc
@@ -447,13 +423,9 @@ odm/etc/camera/beauty_config_cn_8g.json
 odm/etc/camera/beauty_config_gl.json
 odm/etc/camera/beauty_config_gl_8g.json
 odm/etc/camera/beauty_style_nude.cng
-odm/etc/camera/cameraopt.json
 odm/etc/camera/camerascene.json
 odm/etc/camera/camxoverridesettings.txt
 odm/etc/camera/com.xiaomi.dcal.wu.golden
-odm/etc/camera/com.xiaomi.dcal.wu.golden2
-odm/etc/camera/com.xiaomi.dcal.wu.golden3
-odm/etc/camera/com.xiaomi.dcal.wu.golden4
 odm/etc/camera/deblur_txt_dsp.dlc
 odm/etc/camera/deblur_txt_gpu.dlc
 odm/etc/camera/dlengine.dlc
@@ -498,6 +470,7 @@ odm/etc/camera/model_ai_dxo.dlc
 odm/etc/camera/model_aiie_cap.dlc
 odm/etc/camera/model_back.dlc
 odm/etc/camera/model_front.dlc
+odm/etc/camera/model_front_mibokeh_video.dlc
 odm/etc/camera/model_glass.dlc
 odm/etc/camera/model_indoor.dlc
 odm/etc/camera/motiontuning.xml
@@ -720,143 +693,13 @@ odm/etc/camera/xiaomi/watermark/ic_cv_logo_p3.png
 odm/etc/camera/xiaomiSceneDetection.xml
 odm/etc/camera/xmi_slmt_4x_1080p.dlc
 odm/etc/camera/xmi_slmt_4x_720p.dlc
-odm/lib64/anc.hal.so
-odm/lib64/camera/aon_front_1.pb;SYMLINK=vendor/lib64/camera/aon_front_1.pb
-odm/lib64/camera/libchxlogicalcameratable.so
-odm/lib64/camera/plugins/com.xiaomi.plugin.anchor.so
-odm/lib64/camera/plugins/com.xiaomi.plugin.arcfrontsll.so
-odm/lib64/camera/plugins/com.xiaomi.plugin.arcportraitrawhdr.so
-odm/lib64/camera/plugins/com.xiaomi.plugin.arcrawhdr.so
-odm/lib64/camera/plugins/com.xiaomi.plugin.arcsoftsll.so
-odm/lib64/camera/plugins/com.xiaomi.plugin.capbokeh.so
-odm/lib64/camera/plugins/com.xiaomi.plugin.capdepth.so
-odm/lib64/camera/plugins/com.xiaomi.plugin.filter.so
-odm/lib64/camera/plugins/com.xiaomi.plugin.frontbokeh.so
-odm/lib64/camera/plugins/com.xiaomi.plugin.gainmap.so;DISABLE_CHECKELF
-odm/lib64/camera/plugins/com.xiaomi.plugin.gainmapPostProc.so
-odm/lib64/camera/plugins/com.xiaomi.plugin.hdr.so
-odm/lib64/camera/plugins/com.xiaomi.plugin.jpegrAggr.so;DISABLE_CHECKELF
-odm/lib64/camera/plugins/com.xiaomi.plugin.ldc.so
-odm/lib64/camera/plugins/com.xiaomi.plugin.mawaiie.so
-odm/lib64/camera/plugins/com.xiaomi.plugin.memcpy.so
-odm/lib64/camera/plugins/com.xiaomi.plugin.memcpyCustomization.so
-odm/lib64/camera/plugins/com.xiaomi.plugin.miaideblur.so
-odm/lib64/camera/plugins/com.xiaomi.plugin.movieeffect.so
-odm/lib64/camera/plugins/com.xiaomi.plugin.offlinepostproc.so
-odm/lib64/camera/plugins/com.xiaomi.plugin.portraitrepair.so
-odm/lib64/camera/plugins/com.xiaomi.plugin.simulation.so
-odm/lib64/camera/plugins/com.xiaomi.plugin.sr.so
-odm/lib64/camera/plugins/com.xiaomi.plugin.swflip.so
-odm/lib64/camera/plugins/com.xiaomi.plugin.swjpegencode.so
-odm/lib64/camera/plugins/com.xiaomi.plugin.tsskinbeautifier.so
-odm/lib64/camera/plugins/com.xiaomi.plugin.watermark.so
-odm/lib64/libAncHumanVideoBokehV4.so;DISABLE_CHECKELF
-odm/lib64/libMiStereoFactoryCalibAnalyzeBin_qual.so
-odm/lib64/libTrueSight.so;DISABLE_CHECKELF
-odm/lib64/libanc_edof_checker.so
-odm/lib64/libanc_single_bokeh.so
-odm/lib64/libanc_single_rt_bokeh.so
-odm/lib64/libarcsoft_beautyshot.so
-odm/lib64/libarcsoft_hdr_detection.so
-odm/lib64/libarcsoft_hdr_raw.so
-odm/lib64/libarcsoft_hdr_raw_grf.so
-odm/lib64/libarcsoft_high_dynamic_range.so
-odm/lib64/libarcsoft_low_light_hdr.so
-odm/lib64/libarcsoft_mf_superresolution.so
-odm/lib64/libarcsoft_portrait_hdr_raw.so
-odm/lib64/libarcsoft_portrait_super_night_raw.so
-odm/lib64/libarcsoft_qnnhtp.so
-odm/lib64/libarcsoft_super_night_detection.so
-odm/lib64/libarcsoft_super_night_raw.so
-odm/lib64/libarcsoft_turbo_hdr_detection.so
-odm/lib64/libarcsoft_turbo_sr_detection.so
-odm/lib64/libcamera_scene.so
-odm/lib64/libellv.so
-odm/lib64/liblocalFlickerDet.so
-odm/lib64/libmiStereoCalibLib_qual.so
-odm/lib64/libmiai_deblur.so
-odm/lib64/libmiaio_aio_seg.so
-odm/lib64/libmialgo_aio_seg.so
-odm/lib64/libmialgo_deepfill.so
-odm/lib64/libmialgo_depth.so
-odm/lib64/libmialgo_ds_nn.so
-odm/lib64/libmialgo_ie_capture.so
-odm/lib64/libmialgo_sd.so
-odm/lib64/libmialgo_utils.so
-odm/lib64/libmiocr.so
-odm/lib64/libmiphone_capture_bokeh.so
-odm/lib64/libmiphone_capture_depth.so
-odm/lib64/libmiphone_preview_bokeh.so
-odm/lib64/libmiphone_preview_depth.so
-odm/lib64/libportrait_repair_qnn.so
-odm/lib64/libremosaic_wrapper.so
-odm/lib64/libremosaiclib.so
-odm/lib64/librfs_warp.so
-odm/lib64/librmsclib1.so
-odm/lib64/libwa_widelens_undistort.so;DISABLE_CHECKELF
-odm/lib64/libwrapper_dlengine.so;DISABLE_CHECKELF
-odm/lib64/libxmi_hdr_checker.so
-odm/lib64/libxmi_slow_motion_mein.so
-odm/etc/camera/102_SummerDay.png
-odm/etc/camera/103_Fantasy.png
-odm/etc/camera/104_Meet.png
-odm/etc/camera/105_WindSing.png
-odm/etc/camera/106_Lost.png
-odm/etc/camera/107_Central.png
-odm/etc/camera/108_NorthernEurope.png
-odm/etc/camera/109_Rome.png
-odm/etc/camera/110_BlackGold.png
-odm/etc/camera/111_GreenOrange.png
-odm/etc/camera/112_CyberPunk.png
-odm/etc/camera/113_BlackIce.png
-odm/etc/camera/121_Bleach.png
-odm/etc/camera/122_Thriller.png
-odm/etc/camera/123_TealOrange.png
-odm/etc/camera/124_JapaneseStyle.png
-odm/etc/camera/125_Latin.png
-odm/etc/camera/126_Fantasy2.png
-odm/etc/camera/127_Creamy.png
-odm/etc/camera/128_Sepia.png
-odm/etc/camera/129_Vivid.png
-odm/etc/camera/130_Natural.png
-odm/etc/camera/131_Monochrome.png
-odm/etc/camera/132_MonochromeHighContrast.png
-odm/etc/camera/133_MonochromeBrown.png
-odm/etc/camera/134_MonochromeBlue.png
-odm/etc/camera/135_Classical.png
-odm/etc/camera/136_Filene.png
-odm/etc/camera/137_GreenNight.png
-odm/etc/camera/138_LiteratureAndArt.png
-odm/etc/camera/139_OrangeHoney.png
-odm/etc/camera/140_Romance.png
-odm/etc/camera/141_FR500.png
-odm/etc/camera/142_FE250.png
-odm/etc/camera/143_RedLantern.png
-odm/etc/camera/144_RedHero.png
-odm/etc/camera/145_TactileBlackWhite.png
-odm/etc/camera/146_TactileGreen.png
-odm/etc/camera/147_Neutral.png
-odm/etc/camera/148_Mild.png
-odm/etc/camera/149_LilyWhite.png
-odm/etc/camera/150_Bright.png
-odm/etc/camera/151_Fresh.png
-odm/etc/camera/152_Limpid.png
-odm/etc/camera/153_KC64.png
-odm/etc/camera/154_V250.png
-odm/etc/camera/155_H400.png
-odm/etc/camera/156_ColdWhite.png
-odm/etc/camera/157_Native.png
-odm/etc/camera/158_BWClassical.png
-odm/etc/camera/159_Flowers.png
-odm/etc/camera/model_front_mibokeh_video.dlc
-odm/etc/init/misensor_camera.rc
 odm/etc/init/vendor.qti.camera.provider-service_64.rc
-odm/etc/vintf/manifest/misensor_camera.xml
 odm/etc/vintf/manifest/vendor.qti.camera.offlinecamera-impl.xml
 odm/etc/vintf/manifest/vendor.qti.camera.postproc-impl.xml
 odm/etc/vintf/manifest/vendor.qti.camera.provider.xml
 odm/etc/vintf/manifest/vendor.xiaomi.camera.aon-impl.xml
 odm/etc/vintf/manifest/vendor.xiaomi.hardware.aidlbgservice-service.xml
+odm/lib64/anc.hal.so
 odm/lib64/bm3b68v04s12n52.bin
 odm/lib64/bm3b68v04s12n53.bin
 odm/lib64/bm3b73v04s12n02.bin
@@ -957,6 +800,7 @@ odm/lib64/bm4a73v08s12n59.bin
 odm/lib64/bm4a73v08s12n60.bin
 odm/lib64/bm4a73v08s12n61.bin
 odm/lib64/bm4a73v08s12n62.bin
+odm/lib64/camera/aon_front_1.pb;SYMLINK=vendor/lib64/camera/aon_front_1.pb
 odm/lib64/camera/bitmlconfig.bin;SYMLINK=vendor/lib64/camera/bitmlconfig.bin
 odm/lib64/camera/bitmlconfig_sm8635.bin;SYMLINK=vendor/lib64/camera/bitmlconfig_sm8635.bin
 odm/lib64/camera/camxfl115indices.bin
@@ -968,6 +812,34 @@ odm/lib64/camera/fdconfigpreviewlite.bin
 odm/lib64/camera/fdconfigsecure.bin
 odm/lib64/camera/fdconfigvideo.bin
 odm/lib64/camera/fdconfigvideolite.bin
+odm/lib64/camera/libchxlogicalcameratable.so
+odm/lib64/camera/plugins/com.xiaomi.plugin.anchor.so
+odm/lib64/camera/plugins/com.xiaomi.plugin.arcfrontsll.so
+odm/lib64/camera/plugins/com.xiaomi.plugin.arcportraitrawhdr.so
+odm/lib64/camera/plugins/com.xiaomi.plugin.arcrawhdr.so
+odm/lib64/camera/plugins/com.xiaomi.plugin.arcsoftsll.so
+odm/lib64/camera/plugins/com.xiaomi.plugin.capbokeh.so
+odm/lib64/camera/plugins/com.xiaomi.plugin.capdepth.so
+odm/lib64/camera/plugins/com.xiaomi.plugin.filter.so
+odm/lib64/camera/plugins/com.xiaomi.plugin.frontbokeh.so
+odm/lib64/camera/plugins/com.xiaomi.plugin.gainmap.so;DISABLE_CHECKELF
+odm/lib64/camera/plugins/com.xiaomi.plugin.gainmapPostProc.so
+odm/lib64/camera/plugins/com.xiaomi.plugin.hdr.so
+odm/lib64/camera/plugins/com.xiaomi.plugin.jpegrAggr.so;DISABLE_CHECKELF
+odm/lib64/camera/plugins/com.xiaomi.plugin.ldc.so
+odm/lib64/camera/plugins/com.xiaomi.plugin.mawaiie.so
+odm/lib64/camera/plugins/com.xiaomi.plugin.memcpy.so
+odm/lib64/camera/plugins/com.xiaomi.plugin.memcpyCustomization.so
+odm/lib64/camera/plugins/com.xiaomi.plugin.miaideblur.so
+odm/lib64/camera/plugins/com.xiaomi.plugin.movieeffect.so
+odm/lib64/camera/plugins/com.xiaomi.plugin.offlinepostproc.so
+odm/lib64/camera/plugins/com.xiaomi.plugin.portraitrepair.so
+odm/lib64/camera/plugins/com.xiaomi.plugin.simulation.so
+odm/lib64/camera/plugins/com.xiaomi.plugin.sr.so
+odm/lib64/camera/plugins/com.xiaomi.plugin.swflip.so
+odm/lib64/camera/plugins/com.xiaomi.plugin.swjpegencode.so
+odm/lib64/camera/plugins/com.xiaomi.plugin.tsskinbeautifier.so
+odm/lib64/camera/plugins/com.xiaomi.plugin.watermark.so
 odm/lib64/camx.device-impl.so
 odm/lib64/camx.provider-impl.so
 odm/lib64/com.qti.camx.chiiqutils.so
@@ -1017,11 +889,13 @@ odm/lib64/hw/camera.xiaomi.so
 odm/lib64/hw/com.qti.chi.offline.so
 odm/lib64/hw/com.qti.chi.override.so
 odm/lib64/libAF.so
+odm/lib64/libAncHumanVideoBokehV4.so;DISABLE_CHECKELF
 odm/lib64/libDISAlgos.so
 odm/lib64/libHISCppAlgos.so
 odm/lib64/libIMTCppAlgos.so
 odm/lib64/libITT.so
 odm/lib64/libMiMotion.so
+odm/lib64/libMiStereoFactoryCalibAnalyzeBin_qual.so
 odm/lib64/libMiVideoFilter.so;DISABLE_CHECKELF
 odm/lib64/libPlatformValidatorShared.so
 odm/lib64/libSNPE.so
@@ -1032,14 +906,33 @@ odm/lib64/libSnpeHtpV68Stub.so
 odm/lib64/libSnpeHtpV69Stub.so
 odm/lib64/libSnpeHtpV73Stub.so
 odm/lib64/libSnpeHtpV75Stub.so
+odm/lib64/libTrueSight.so;DISABLE_CHECKELF
 odm/lib64/libXMFaceFocus.so
 odm/lib64/libaidenoiser.so
 odm/lib64/libaidenoiserv2.so
+odm/lib64/libanc_edof_checker.so
+odm/lib64/libanc_single_bokeh.so
+odm/lib64/libanc_single_rt_bokeh.so
+odm/lib64/libarcsoft_beautyshot.so
+odm/lib64/libarcsoft_hdr_detection.so
+odm/lib64/libarcsoft_hdr_raw.so
+odm/lib64/libarcsoft_hdr_raw_grf.so
+odm/lib64/libarcsoft_high_dynamic_range.so
+odm/lib64/libarcsoft_low_light_hdr.so
+odm/lib64/libarcsoft_mf_superresolution.so
+odm/lib64/libarcsoft_portrait_hdr_raw.so
+odm/lib64/libarcsoft_portrait_super_night_raw.so
+odm/lib64/libarcsoft_qnnhtp.so
+odm/lib64/libarcsoft_super_night_detection.so
+odm/lib64/libarcsoft_super_night_raw.so
+odm/lib64/libarcsoft_turbo_hdr_detection.so
+odm/lib64/libarcsoft_turbo_sr_detection.so
 odm/lib64/libbitmlengine.so
 odm/lib64/libbitmlenginev2.so
 odm/lib64/libc++_shared.so
 odm/lib64/libcalculator.so;FIX_SONAME
 odm/lib64/libcalculator_htp.so;FIX_SONAME
+odm/lib64/libcamera_scene.so
 odm/lib64/libcamerapostproc.so
 odm/lib64/libcamlog.so
 odm/lib64/libcamxcommonutils.so
@@ -1072,6 +965,7 @@ odm/lib64/libcom.xiaomi.signaltrigger.so
 odm/lib64/libcommonchiutils.so
 odm/lib64/libdeflicker.so
 odm/lib64/libecoengine.so
+odm/lib64/libellv.so
 odm/lib64/libfastmessage.so
 odm/lib64/libhdr10plus.so
 odm/lib64/libhis_face_tracking.so
@@ -1083,16 +977,32 @@ odm/lib64/libipebpsstriping170.so
 odm/lib64/libipebpsstriping480.so
 odm/lib64/libisphwsetting.so
 odm/lib64/libjpege.so
+odm/lib64/liblocalFlickerDet.so
 odm/lib64/libmctfengine_stub.so
 odm/lib64/libmfGhostDetection.so
 odm/lib64/libmfec.so
+odm/lib64/libmiStereoCalibLib_qual.so
+odm/lib64/libmiai_deblur.so
+odm/lib64/libmiaio_aio_seg.so
 odm/lib64/libmialgo_ai_vision.so
+odm/lib64/libmialgo_aio_seg.so
+odm/lib64/libmialgo_deepfill.so
+odm/lib64/libmialgo_depth.so
+odm/lib64/libmialgo_ds_nn.so
 odm/lib64/libmialgo_globalsaliency.so
+odm/lib64/libmialgo_ie_capture.so
+odm/lib64/libmialgo_sd.so
+odm/lib64/libmialgo_utils.so
 odm/lib64/libmialgoengine.so
 odm/lib64/libmialgoenginecustom.so
 odm/lib64/libmibokeh_845_video.so;DISABLE_CHECKELF
 odm/lib64/libmicamera_adapter.so
 odm/lib64/libminikin.xiaomi.so
+odm/lib64/libmiocr.so
+odm/lib64/libmiphone_capture_bokeh.so
+odm/lib64/libmiphone_capture_depth.so
+odm/lib64/libmiphone_preview_bokeh.so
+odm/lib64/libmiphone_preview_depth.so
 odm/lib64/libmis_platform.so
 odm/lib64/libmis_plugin_dummy.so
 odm/lib64/libmis_plugin_gme.so
@@ -1113,12 +1023,17 @@ odm/lib64/libomp.so
 odm/lib64/libopencv.so
 odm/lib64/libopencv3a.so
 odm/lib64/libopestriping.so
+odm/lib64/libportrait_repair_qnn.so
 odm/lib64/libqll.so
 odm/lib64/libqll10.so
 odm/lib64/libqllengine.so
 odm/lib64/libqsegnet.so
 odm/lib64/libqshcamera.so;DISABLE_CHECKELF
+odm/lib64/libremosaic_wrapper.so
+odm/lib64/libremosaiclib.so
 odm/lib64/librendercore.so
+odm/lib64/librfs_warp.so
+odm/lib64/librmsclib1.so
 odm/lib64/libsfeShiftExtrapolation.so
 odm/lib64/libshadowhook.so
 odm/lib64/libsnpe_config.so;DISABLE_CHECKELF
@@ -1126,7 +1041,10 @@ odm/lib64/libswregistrationalgo.so
 odm/lib64/libtfestriping.so
 odm/lib64/libubifocus.so
 odm/lib64/libvideoml.so
-odm/lib64/libvideomode.so
+odm/lib64/libwa_widelens_undistort.so;DISABLE_CHECKELF
+odm/lib64/libwrapper_dlengine.so;DISABLE_CHECKELF
+odm/lib64/libxmi_hdr_checker.so
+odm/lib64/libxmi_slow_motion_mein.so
 odm/lib64/vendor.qti.hardware.camera.aon-service-impl.so
 odm/lib64/vendor.qti.hardware.camera.offlinecamera-service-impl.so
 odm/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
@@ -1134,60 +1052,41 @@ odm/lib64/vendor.xiaomi.hardware.aidlbgservice-V1-impl.so
 odm/lib64/vendor.xiaomi.hardware.aidlbgservice-V1-ndk_platform.so
 odm/lib64/vendor.xiaomi.hardware.bgservice@1.0-impl.so
 odm/lib64/vendor.xiaomi.hardware.bgservice@1.0.so
+vendor/etc/vintf/manifest/vendor.xiaomi.hardware.quickcamera.xml
+vendor/framework/androidx.camera.extensions.impl.jar
+vendor/lib64/libFace3DTA.so
+vendor/lib64/libFace3D_hlos.so
+vendor/lib64/libQ6MSFR_manager_stub.so
+vendor/lib64/libSNPESample.so
+vendor/lib64/libcameraopt.so
+vendor/lib64/libface3d_dev.so
+vendor/lib64/libmemunreachable.so;MODULE_SUFFIX=_vendor
+vendor/lib64/libmialgo.so
 vendor/lib64/libos.so
 vendor/lib64/libpowercore.so
+vendor/lib64/libsynx.so
 vendor/lib64/libthreadutils.so
-vendor/lib64/libstreamparser.so
 vendor/lib64/libubwcp.so
 vendor/lib64/libvideodiedobserver_vendor.so
 vendor/lib64/libvideooptfeature.so
-vendor/lib64/libvideoutils.so
-vendor/lib64/libvideotxr.so
-vendor/lib64/libsynx.so
-vendor/lib64/libmips.so
-vendor/lib64/libmirf.so
-vendor/lib64/libmialgo.so
-vendor/lib64/libmidebuggerdimpl_vendor.so
-vendor/lib64/libmifaceempty.so
-vendor/lib64/liboemaids_vendor.so
-vendor/lib64/libmemunreachable.so;MODULE_SUFFIX=_vendor
-vendor/lib64/libface3d_dev.so
-vendor/lib64/libjni_aidenoiserutilv2.so
-vendor/lib64/libjni_imageutil.so
-vendor/lib64/libcameraopt.so
-vendor/lib64/libruy.so
-vendor/lib64/libsagt.so
-vendor/lib64/libsamplefilterplugin.so
-vendor/lib64/libSNPESample.so
-vendor/lib64/libQ6MSFR_manager_stub.so
-vendor/lib64/libFace3DTA.so
-vendor/lib64/libFace3D_hlos.so
-vendor/lib64/libultrahdr.so
-vendor/etc/camera/cameraopt_perf.json
-vendor/etc/camera/cameraopt_vendor.json
-vendor/etc/vintf/manifest/vendor.xiaomi.hardware.quickcamera.xml
-vendor/framework/androidx.camera.extensions.impl.jar
 vendor/lib64/vendor.xiaomi.hardware.aon-V1-ndk.so
 vendor/lib64/vendor.xiaomi.hardware.quickcamera-V1-ndk.so
-vendor/lib64/vendor.xiaomi.sensor.camera-V1-ndk.so
 
 # Camera components
 odm/lib64/camera/components/com.jigan.node.videobokeh.so
 odm/lib64/camera/components/com.mi.node.aiasd.so
+odm/lib64/camera/components/com.mi.node.dlengine.so
 odm/lib64/camera/components/com.mi.node.facealign.so
+odm/lib64/camera/components/com.mi.node.mawcommon.so
+odm/lib64/camera/components/com.mi.node.mawsaliency.so
+odm/lib64/camera/components/com.mi.node.mimovie.so
 odm/lib64/camera/components/com.mi.node.realtimebokeh.so
 odm/lib64/camera/components/com.mi.node.singlebokeh.so
 odm/lib64/camera/components/com.mi.node.skinbeautifier.so
 odm/lib64/camera/components/com.mi.node.tsskinbeautifier.so
-odm/lib64/camera/components/com.mi.node.videonight.so
-odm/lib64/camera/components/com.qti.node.ldc.so
-odm/lib64/camera/components/com.qti.node.remosaic.so
-odm/lib64/camera/components/com.mi.node.dlengine.so
-odm/lib64/camera/components/com.mi.node.mawcommon.so
-odm/lib64/camera/components/com.mi.node.mawsaliency.so
-odm/lib64/camera/components/com.mi.node.mimovie.so
 odm/lib64/camera/components/com.mi.node.videobokeh.so
 odm/lib64/camera/components/com.mi.node.videofilter.so
+odm/lib64/camera/components/com.mi.node.videonight.so
 odm/lib64/camera/components/com.qti.eisv2.so
 odm/lib64/camera/components/com.qti.eisv3.so
 odm/lib64/camera/components/com.qti.hvx.addconstant.so
@@ -1218,11 +1117,13 @@ odm/lib64/camera/components/com.qti.node.hdr10phist.so
 odm/lib64/camera/components/com.qti.node.hdr10plushist.so
 odm/lib64/camera/components/com.qti.node.hdr10plusmeta.so
 odm/lib64/camera/components/com.qti.node.itofpreprocess.so
+odm/lib64/camera/components/com.qti.node.ldc.so
 odm/lib64/camera/components/com.qti.node.memcpy.so
 odm/lib64/camera/components/com.qti.node.ml.so
 odm/lib64/camera/components/com.qti.node.mlinference.so
 odm/lib64/camera/components/com.qti.node.muxer.so
 odm/lib64/camera/components/com.qti.node.pixelstats.so
+odm/lib64/camera/components/com.qti.node.remosaic.so
 odm/lib64/camera/components/com.qti.node.seg.so
 odm/lib64/camera/components/com.qti.node.stich.so
 odm/lib64/camera/components/com.qti.node.swaidenoiser.so
@@ -1293,9 +1194,9 @@ odm/firmware/CAMERA_ICP.b17
 odm/firmware/CAMERA_ICP.b18
 odm/firmware/CAMERA_ICP.b19
 odm/firmware/CAMERA_ICP.b20
+odm/firmware/CAMERA_ICP.elf
 odm/firmware/CAMERA_ICP.mbn
 odm/firmware/CAMERA_ICP.mdt
-odm/firmware/CAMERA_ICP.elf
 odm/firmware/CAMERA_ICP_170.elf
 
 # Camera sensors
@@ -1329,8 +1230,6 @@ odm/lib64/camera/com.qti.tuned.peridot_ofilm_imx882_wide_iii.bin
 odm/lib64/camera/com.qti.tuned.peridot_ofilm_ov20b40_front.bin
 
 # Charger
-odm/etc/charger/BAA_config_common.json
-odm/etc/charger/BAA_config_peridot.json
 vendor/bin/batterysecret
 vendor/etc/charger_diag.cfg
 vendor/etc/init/hw/init.batterysecret.rc
@@ -1360,6 +1259,7 @@ vendor/lib64/libscveCommon_stub.so
 vendor/lib64/libscveObjectSegmentation.so
 vendor/lib64/libscveObjectTracker.so
 vendor/lib64/libscveObjectTracker_stub.so
+vendor/lib64/libvideoutils.so
 
 # Computer vision firmware
 odm/firmware/evass-lt.b00
@@ -1482,25 +1382,25 @@ odm/lib64/rfs/dsp/libapn_dsp_skel.so;SYMLINK=vendor/lib64/rfs/dsp/libapn_dsp_ske
 odm/lib64/rfs/dsp/libbitml_nsp_75na_skel.so;SYMLINK=vendor/lib64/rfs/dsp/libbitml_nsp_75na_skel.so
 odm/lib64/rfs/dsp/libhdr_skel.so;SYMLINK=vendor/lib64/rfs/dsp/libhdr_skel.so
 odm/lib64/rfs/dsp/libqsegnetengine_dsp_skel.so;SYMLINK=vendor/lib64/rfs/dsp/libqsegnetengine_dsp_skel.so
-vendor/lib64/rfs/dsp/libdpp_engine_skel.so
-vendor/lib64/rfs/dsp/libmobilenet_dsp_frc_networks.so
-vendor/lib64/rfs/dsp/libworker_pool.so
-vendor/lib64/rfs/dsp/libVppAisQnnHtp.so
-vendor/lib64/rfs/dsp/libvpp_svc_skel.so
-vendor/lib64/rfs/dsp/libevadsp.so
-vendor/lib64/rfs/dsp/libvpp_vqa_networks.so
-vendor/lib64/rfs/dsp/libfastcvdsp_skel.so
-vendor/lib64/rfs/dsp/libvpt_action_recognition.so
 vendor/lib64/rfs/dsp/libQ6MSFR_manager_skel.so
-vendor/lib64/rfs/dsp/libmobilenet_dsp_frc.so
+vendor/lib64/rfs/dsp/libVppAisQnnHtp.so
 vendor/lib64/rfs/dsp/libVppFrcQnnHtp.so
-vendor/lib64/rfs/dsp/libvpp_ais.so
-vendor/lib64/rfs/dsp/libscveT2T_skel.so
-vendor/lib64/rfs/dsp/libnsp_ipc_cdsp_skel.so
-vendor/lib64/rfs/dsp/libvpp_ais_networks.so
+vendor/lib64/rfs/dsp/libdpp_engine_skel.so
 vendor/lib64/rfs/dsp/libdspCV_skel.so
-vendor/lib64/rfs/dsp/libvpp_frc.so
+vendor/lib64/rfs/dsp/libevadsp.so
 vendor/lib64/rfs/dsp/libfastcvadsp.so
+vendor/lib64/rfs/dsp/libfastcvdsp_skel.so
+vendor/lib64/rfs/dsp/libmobilenet_dsp_frc.so
+vendor/lib64/rfs/dsp/libmobilenet_dsp_frc_networks.so
+vendor/lib64/rfs/dsp/libnsp_ipc_cdsp_skel.so
+vendor/lib64/rfs/dsp/libscveT2T_skel.so
+vendor/lib64/rfs/dsp/libvpp_ais.so
+vendor/lib64/rfs/dsp/libvpp_ais_networks.so
+vendor/lib64/rfs/dsp/libvpp_frc.so
+vendor/lib64/rfs/dsp/libvpp_svc_skel.so
+vendor/lib64/rfs/dsp/libvpp_vqa_networks.so
+vendor/lib64/rfs/dsp/libvpt_action_recognition.so
+vendor/lib64/rfs/dsp/libworker_pool.so
 
 # Device Features
 product/etc/device_features/peridot.xml
@@ -1555,8 +1455,8 @@ vendor/etc/display/DPU870.xml
 vendor/etc/display/DPU9__.xml
 vendor/etc/display/advanced_sf_offsets.xml
 vendor/etc/display/thermallevel_to_fps.xml
-vendor/etc/snapdragon_color_libs_config.xml
 vendor/etc/init/feature_enabler_client.rc
+vendor/etc/snapdragon_color_libs_config.xml
 vendor/lib64/libbacklight-calib.so
 vendor/lib64/libclstc_algorithm_adapter.so
 vendor/lib64/libclstc_gcp_adapter.so
@@ -1568,6 +1468,7 @@ vendor/lib64/libdisplayqos.so
 vendor/lib64/libdisplayskuutils.so
 vendor/lib64/libfeutils.so
 vendor/lib64/libintervmipc.so
+vendor/lib64/libqrtrclient.so
 vendor/lib64/libqseed3.so
 vendor/lib64/librcmask.so
 vendor/lib64/libsdedrm.so
@@ -1589,12 +1490,17 @@ odm/etc/display/qdcm_calib_data_xiaomi_42_0a_0c_video_mode_dsc_dsi_panel.json
 odm/etc/mdss_dsi_n16t_36_0f_0b_dsc_vid_mi.xml
 odm/etc/mdss_dsi_n16t_42_02_0a_dsc_vid_mi.xml
 odm/etc/mdss_dsi_n16t_42_0a_0c_dsc_vid_mi.xml
+product/etc/displayconfig/display_id_4630947195234848131.xml
+vendor/etc/displayconfig/display_id_4630946416293825923.xml
+vendor/etc/displayconfig/display_id_4630946545580055171.xml
+vendor/etc/displayconfig/display_id_4630947039571902851.xml
+vendor/etc/displayconfig/display_id_4630947082089526659.xml
+vendor/etc/displayconfig/display_id_4630947256895775107.xml
 
 # Display Postprocessing
 vendor/bin/hw/vendor.qti.hardware.display.color-service
 vendor/bin/ppd
 vendor/etc/init/vendor.qti.hardware.display.color-service.rc
-vendor/lib64/libcolor-default.so
 vendor/lib64/libdisp-aba.so
 vendor/lib64/libsnapdragoncolor-manager.so
 vendor/lib64/libsnapdragoncolor-qdcm.so
@@ -1632,6 +1538,7 @@ odm/lib64/librhytheyecare.so
 odm/lib64/libsdr2hdr.so
 odm/lib64/libsre.so
 odm/lib64/libtruetone.so
+odm/lib64/libvideomode.so
 vendor/bin/displayfeature
 vendor/bin/hw/vendor.xiaomi.hardware.displayfeature_aidl-service
 vendor/etc/init/vendor.xiaomi.hardware.displayfeature_aidl-service.rc
@@ -1640,7 +1547,6 @@ vendor/lib64/libdisplayfeature.so
 vendor/lib64/libdisplayfeatureservice.so
 vendor/lib64/libqservice.so
 vendor/lib64/vendor.xiaomi.hardware.display.mihwcextension-V1-ndk.so
-vendor/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so;MODULE_SUFFIX=_vendor
 vendor/lib64/vendor.xiaomi.hardware.displayfeature_aidl-V2-ndk.so
 
 # Dolby music
@@ -1657,14 +1563,13 @@ vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so
 vendor/lib64/vendor.dolby.hardware.dms@2.0.so
 
 # Fingerprint
-odm/etc/vintf/manifest/fod-aidl.xml
 odm/lib64/hw/fingerprint.goodix_fod.so:odm/lib64/hw/fingerprint.goodix_fod.default.so;FIX_SONAME
 odm/lib64/hw/fingerprint.jiiov.so:odm/lib64/hw/fingerprint.jiiov.default.so;FIX_SONAME
 odm/lib64/libgf_hal.so
 vendor/etc/permissions/qti_fingerprint_interface.xml
 vendor/lib64/com.fingerprints.fpc.extension-V1-ndk.so
-vendor/lib64/vendor.xiaomi.hardware.fx.tunnel-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.fingerprint-V1-ndk.so
+vendor/lib64/vendor.xiaomi.hardware.fx.tunnel-V1-ndk.so
 
 # GNSS
 odm/bin/hw/android.hardware.gnss-aidl-service-qti
@@ -1753,42 +1658,42 @@ vendor/etc/init/android.hardware.gatekeeper-service-qti.rc
 vendor/lib64/hw/libqtigatekeeper.so
 
 # Graphics v819
-vendor/app/com.qualcomm.qti.gpudrivers.pineapple.api34/com.qualcomm.qti.gpudrivers.pineapple.api34.apk
-vendor/bin/init.qti.graphics.sh
-vendor/etc/init/init.qti.graphics.rc
-vendor/gpu/kbc/sequence_manifest.bin
-vendor/gpu/kbc/unified_kbcs_32.bin
-vendor/gpu/kbc/unified_kbcs_64.bin
-vendor/gpu/kbc/unified_ksqs.bin
-vendor/lib64/egl/eglSubDriverAndroid.so
-vendor/lib64/egl/libEGL_adreno.so;SYMLINK=vendor/lib64/libEGL_adreno.so
-vendor/lib64/egl/libGLESv1_CM_adreno.so
-vendor/lib64/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib64/libGLESv2_adreno.so
-vendor/lib64/egl/libPipeline_plugin.so;MAKE_COPY_RULE_ONLY
-vendor/lib64/egl/libVkLayer_ADRENO_qprofiler.so;MAKE_COPY_RULE_ONLY
-vendor/lib64/egl/libq3dtools_adreno.so;SYMLINK=vendor/lib64/libq3dtools_adreno.so
-vendor/lib64/egl/libq3dtools_esx.so
-vendor/lib64/gpu++.so;MAKE_COPY_RULE_ONLY
-vendor/lib64/hw/vulkan.adreno.so
-vendor/lib64/libCB.so
-vendor/lib64/libOpenCL.so
-vendor/lib64/libOpenCL_adreno.so
-vendor/lib64/libadreno_app_profiles.so
-vendor/lib64/libadreno_compiler_cl.so;MAKE_COPY_RULE_ONLY
-vendor/lib64/libadreno_utils.so
-vendor/lib64/libgpumemtracer.so;MAKE_COPY_RULE_ONLY
-vendor/lib64/libgpuservice.so;MAKE_COPY_RULE_ONLY
-vendor/lib64/libgsl.so
-vendor/lib64/libkcl.so
-vendor/lib64/libkernelmanager.so
-vendor/lib64/libllvm-glnext.so
-vendor/lib64/libllvm-qcom.so
-vendor/lib64/libllvm-qgl.so
-vendor/lib64/libopencl_loader.so
-vendor/lib64/vkbadreno_utils.so;MAKE_COPY_RULE_ONLY
-vendor/lib64/vkbgsl.so;MAKE_COPY_RULE_ONLY
-vendor/lib64/vkbllvm-glnext.so;MAKE_COPY_RULE_ONLY
-vendor/lib64/vkbllvm-qgl.so;MAKE_COPY_RULE_ONLY
+vendor/app/com.qualcomm.qti.gpudrivers.pineapple.api34/com.qualcomm.qti.gpudrivers.pineapple.api34.apk|ebbca05956b11846d103b5803f704dd83e138c4b
+vendor/bin/init.qti.graphics.sh|5ddd2dcf5d181f7332f3f4ebaf3d72f5a3ff5def
+vendor/etc/init/init.qti.graphics.rc|12ac6285511be84c583855e04a188fec9ea4ec51
+vendor/gpu/kbc/sequence_manifest.bin|ec14c65fc1c9a06c8e08859b23e2a13f89a742cb
+vendor/gpu/kbc/unified_kbcs_32.bin|4cc6b5401a57a0512a6b4e9456b0270ca5ad125c
+vendor/gpu/kbc/unified_kbcs_64.bin|901475eae1456bd71583994a087d3bce965cfe48
+vendor/gpu/kbc/unified_ksqs.bin|6dd48ef323ef2d4c3633fde97f83db62bbd31446
+vendor/lib64/egl/eglSubDriverAndroid.so|bad453b09820eb62130ab664509bdcf9dcf6fc7d
+vendor/lib64/egl/libEGL_adreno.so;SYMLINK=vendor/lib64/libEGL_adreno.so|98dc09ab8635b9d6fc2577d4cda4407498fc7fc7
+vendor/lib64/egl/libGLESv1_CM_adreno.so|73e0f348edd3b7267a42cd31e3a0b640f0f0b1d1
+vendor/lib64/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib64/libGLESv2_adreno.so|74d0dade0f80c2198d0ae59b2365077b7ea34b32
+vendor/lib64/egl/libPipeline_plugin.so;MAKE_COPY_RULE_ONLY|7f947f10507f502aba025544c8691283120f5222
+vendor/lib64/egl/libVkLayer_ADRENO_qprofiler.so;MAKE_COPY_RULE_ONLY|d40e5aa5ee68b2df1bc541b1db10dc4ff1aaf384
+vendor/lib64/egl/libq3dtools_adreno.so;SYMLINK=vendor/lib64/libq3dtools_adreno.so|471b9b99a1023a39dc174ef31267b97cad2514c2
+vendor/lib64/egl/libq3dtools_esx.so|68c6a1f506e5c73ae6ceb16011787628307a5dd1
+vendor/lib64/gpu++.so;MAKE_COPY_RULE_ONLY|a40a778776e613005e6a30fe3239359cf9d4b547
+vendor/lib64/hw/vulkan.adreno.so|8088658ffb246fad8b063894243b772f5d3e1e55
+vendor/lib64/libCB.so|0fbdf0371a109175da3883cbffaf5504b2f9de7e
+vendor/lib64/libOpenCL.so|07c0984f0c662768fb16c5927d086105a734f7b0
+vendor/lib64/libOpenCL_adreno.so|1e421fd8f826398303f6a9000e08bdbed6f15b29
+vendor/lib64/libadreno_app_profiles.so|734004160dd8d296144469aba05138c7ed6e28b1
+vendor/lib64/libadreno_compiler_cl.so;MAKE_COPY_RULE_ONLY|9444b3925a0110a4ef0349a868368536e977cf52
+vendor/lib64/libadreno_utils.so|bc523e5128472850aa6ec8794b3115f6584cadfc
+vendor/lib64/libgpumemtracer.so;MAKE_COPY_RULE_ONLY|a8b43f0acc1790abadc0e1837636ce40733945ba
+vendor/lib64/libgpuservice.so;MAKE_COPY_RULE_ONLY|792872abcf02160bc9827391047887ae8fa80169
+vendor/lib64/libgsl.so|64fbd935b2487e837537fb74de7dfbe10d69172d
+vendor/lib64/libkcl.so|b788e4abf1be90187854ed491e973f286d56065e
+vendor/lib64/libkernelmanager.so|2dc0deec5c468be7a486eeee2816afc331a8c00e
+vendor/lib64/libllvm-glnext.so|ebcc19d1c48585ee7e9e961de0fdd61251145ebf
+vendor/lib64/libllvm-qcom.so|6db44a0995bc92bd6f20ec0f00cb5fa02160fd38
+vendor/lib64/libllvm-qgl.so|fa628d9021656a98d00c4bc8c6a6eb02d55eb5fb
+vendor/lib64/libopencl_loader.so|bdef27f63bae710e40954cdac7cad9e9ab9c8d6c
+vendor/lib64/vkbadreno_utils.so;MAKE_COPY_RULE_ONLY|2868f354f83191a4235ed1e3c2d24c4f126ed771
+vendor/lib64/vkbgsl.so;MAKE_COPY_RULE_ONLY|a069b2fdc984f3a2806ef28dd21bae651e0f0ea8
+vendor/lib64/vkbllvm-glnext.so;MAKE_COPY_RULE_ONLY|cd8d5fdaa20ded09cd25151f21c550ac53f7d663
+vendor/lib64/vkbllvm-qgl.so;MAKE_COPY_RULE_ONLY|a8a26a9b9f364345594bd1ea63d4da4d76f2bab6
 
 # Graphics firmware
 odm/firmware/gen70900_zap.mbn
@@ -1798,7 +1703,6 @@ vendor/firmware/gen70900_sqe.fw
 vendor/firmware/gen71100_gmu.bin
 vendor/firmware/gen71100_sqe.fw
 vendor/firmware/gmu_gen70900.bin
-vendor/firmware/qps615_fw.bin
 
 # HDCP
 vendor/bin/hdcp1prov
@@ -1815,8 +1719,6 @@ odm/lib64/hw/consumerir.qcom.so
 vendor/bin/init.qti.write.sh
 vendor/bin/system_dlkm_modprobe.sh
 vendor/bin/vendor_modprobe.sh
-vendor/lib64/libsoc_helper.so
-vendor/lib64/libsoc_helper_jni.so
 
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
@@ -1828,12 +1730,13 @@ vendor/lib64/libqtikeymaster4.so
 
 # Keymint
 vendor/bin/hw/android.hardware.security.keymint-service-qti
+vendor/etc/hal_uuid_map_peridot.xml
+vendor/etc/hal_uuid_map_config.xml
 vendor/etc/init/android.hardware.identity-service-qti.rc
 vendor/etc/init/android.hardware.security.keymint-service-qti.rc
 vendor/etc/vintf/manifest/android.hardware.security.keymint-service-qti.xml
 vendor/etc/vintf/manifest/manifest_identity_credential.xml
 vendor/lib64/libqtiidentitycredential.so
-vendor/lib64/libkeymaster_messages.so
 vendor/lib64/libqtikeymint.so
 
 # Listen
@@ -1867,8 +1770,6 @@ vendor/etc/vintf/manifest/c2_manifest_vendor.xml
 vendor/etc/vintf/manifest/c2_manifest_vendor_audio.xml
 vendor/lib64/libEvrcSwCodec.so
 vendor/lib64/libQcelp13SwCodec.so
-vendor/lib64/libmediautils_vendor.so
-vendor/lib64/libcodec2_hidl_plugin.so
 vendor/lib64/libcodec2_soft_ac4dec.so
 vendor/lib64/libcodec2_soft_ddpdec.so
 vendor/lib64/libcodec2_store_dolby.so
@@ -1876,7 +1777,6 @@ vendor/lib64/libdeccfg.so
 vendor/lib64/libdolbyclstc.so
 vendor/lib64/libdolbydecoderprocessor.so
 vendor/lib64/libdolbyeglcore.so
-vendor/lib64/libdolbyencoderprocessor.so
 vendor/lib64/libdolbyottcameracontrol.so
 vendor/lib64/libmilut.so
 vendor/lib64/libmisr.so
@@ -1894,19 +1794,17 @@ vendor/lib64/libqcodec2_basecodec.so
 vendor/lib64/libqcodec2_core.so
 vendor/lib64/libqcodec2_cvpfilter.so
 vendor/lib64/libqcodec2_dolbydecoderfilter.so
-vendor/lib64/libqcodec2_dolbyencoderfilter.so
 vendor/lib64/libqcodec2_filterbase.so
 vendor/lib64/libqcodec2_hooks.so
 vendor/lib64/libqcodec2_imgtxrfilter.so
 vendor/lib64/libqcodec2_mockfilter.so
 vendor/lib64/libqcodec2_mocklutfilter.so
 vendor/lib64/libqcodec2_platform.so
-vendor/lib64/libqcodec2_psfilter.so
-vendor/lib64/libqcodec2_rffilter.so
 vendor/lib64/libqcodec2_srfilter.so
 vendor/lib64/libqcodec2_streaminteg_filter.so
 vendor/lib64/libqcodec2_utils.so
 vendor/lib64/libqcodec2_v4l2codec.so
+vendor/lib64/libvideotxr.so
 vendor/lib64/qti.video.utils.videobufferlayout.so
 
 # Media Config
@@ -1929,11 +1827,11 @@ vendor/lib64/vendor.xiaomi.hardware.mlipay-V1-ndk_platform.so
 
 # NFC
 system_ext/etc/permissions/com.nxp.nfc.nq.xml
+odm/bin/hw/android.hardware.nqnfc-service.nxp
+odm/etc/init/nfc-service-nxp.rc:odm/etc/init/nqnfc-service-nxp.rc
 odm/etc/libnfc-nci.conf
 odm/etc/libnfc-nxp.conf
 odm/etc/libnfc-nxp_RF.conf
-odm/bin/hw/android.hardware.nqnfc-service.nxp
-odm/etc/init/nfc-service-nxp.rc:odm/etc/init/nqnfc-service-nxp.rc
 odm/lib64/nfc_nci.nqx.default.hw.so
 vendor/bin/pnscr
 vendor/bin/pnscr-mi
@@ -2162,6 +2060,16 @@ vendor/lib64/libvui_dmgr.so
 vendor/lib64/libvui_dmgr_client.so
 vendor/lib64/libvui_intf.so;DISABLE_CHECKELF
 
+# QSPM
+vendor/bin/vendor.qti.qspmhal-service
+vendor/etc/init/vendor.qti.qspmhal-service.rc
+vendor/etc/seccomp_policy/qspm.policy
+vendor/etc/vintf/manifest/vendor.qti.qspmhal-service.xml
+vendor/lib64/libqspm-mem-utils-vendor.so
+vendor/lib64/vendor.qti.qspmhal-V1-ndk.so
+vendor/lib64/vendor.qti.qspmhal-impl.so
+vendor/lib64/vendor.qti.qspmhal@1.0.so
+
 # QVR
 vendor/bin/hw/qvrservice
 vendor/bin/qvrdatalogger
@@ -2197,7 +2105,7 @@ vendor/lib64/vendor.qti.hardware.qxr-V1-ndk.so
 vendor/lib64/vendor.qti.qegahal-V1-ndk_platform.so
 
 # RIL - from op5cfbl1 qssi-user-14-UKQ1.231108.001-1717690720477-release-keys
-vendor/lib64/libqcrilNrVoiceModule.so|c1ec01ba7707a718d352ca6cbf8a8d586b1d8e9e
+vendor/lib64/libqcrilNrVoiceModule.so
 
 # RIL
 odm/etc/MESubway_prebuilt.db
@@ -2209,16 +2117,13 @@ product/etc/permissions/UimService.xml
 product/framework/uimgbalibrary.jar
 product/framework/uimgbamanagerlibrary.jar
 product/framework/uimservicelibrary.jar
-product/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so
 system/etc/sysconfig/qti_whitelist.xml
 system/lib64/vendor.qti.diaghal-V1-ndk.so
 system_ext/app/AtFwd2/AtFwd2.apk
 system_ext/app/ImsRcsService/ImsRcsService.apk
 system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
 system_ext/etc/permissions/qcrilhook.xml
-system_ext/etc/permissions/qti_libpermissions.xml
 system_ext/etc/permissions/qti_permissions.xml
-system_ext/etc/permissions/vendor.qti.imsdcservice.xml
 system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml
 system_ext/etc/permissions/vendor.qti.ims.rcsservice.xml
 system_ext/etc/sysconfig/qti_telephony_system_packages_config.xml
@@ -2247,9 +2152,9 @@ system_ext/lib64/libimsmedia_jni.so;SYMLINK=system_ext/priv-app/ims/lib/arm64/li
 system_ext/lib64/vendor.qti.ImsRtpService-V1-ndk.so
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so
 system_ext/lib64/vendor.qti.imsrtpservice@3.1.so
+system_ext/priv-app/QtiTelephony/QtiTelephony.apk;REQUIRED=QtiTelephonyCompat
 system_ext/priv-app/ims/ims.apk;REQUIRED=QtiTelephonyCompat
 system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
-system_ext/priv-app/QtiTelephony/QtiTelephony.apk;REQUIRED=QtiTelephonyCompat
 vendor/app/IWlanService/IWlanService.apk
 vendor/bin/ATFWD-daemon
 vendor/bin/adpl
@@ -2294,6 +2199,7 @@ vendor/etc/seccomp_policy/atfwd@2.0.policy
 vendor/etc/seccomp_policy/imsrtp.policy
 vendor/etc/seccomp_policy/qcrilnr@2.0.policy
 vendor/etc/seccomp_policy/qwesd@2.0.policy
+vendor/etc/ssg/ta_config.json
 vendor/etc/ssg/tz_whitelist.json
 vendor/etc/telephony_packages.xml
 vendor/etc/vintf/manifest/ImsRtpService-aidl.xml
@@ -2346,6 +2252,7 @@ vendor/lib64/libQtiRilLoadable.so
 vendor/lib64/libconfigdb.so
 vendor/lib64/liblqe.so
 vendor/lib64/libmdmdetect.so
+vendor/lib64/libminkdescriptor.so
 vendor/lib64/libpdmapper.so
 vendor/lib64/libpdnotifier.so
 vendor/lib64/libqcci_legacy.so
@@ -2365,7 +2272,6 @@ vendor/lib64/libqcrildatactl.so
 vendor/lib64/libqcrildataqos.so
 vendor/lib64/libqdpr.so
 vendor/lib64/libqrtr.so
-vendor/lib64/libqrtrclient.so
 vendor/lib64/libqsocket.so
 vendor/lib64/librcc.so
 vendor/lib64/libril-db.so
@@ -2473,12 +2379,6 @@ vendor/lib64/vendor.qti.ims.rcsuceaidlservice-V1-ndk.so
 vendor/lib64/vendor.qti.imsrtpservice@3.0.so;MODULE_SUFFIX=_vendor
 vendor/lib64/vendor.qti.imsrtpservice@3.1.so;MODULE_SUFFIX=_vendor
 
-# SMC Invoke
-vendor/etc/ssg/ta_config.json
-vendor/lib64/libminkdescriptor.so
-vendor/lib64/libminksocket_vendor.so
-vendor/lib64/libnative-api.so
-
 # Secure element
 vendor/bin/hw/android.hardware.secure_element-service.qti
 vendor/etc/init/android.hardware.secure_element-service.qti.rc
@@ -2487,8 +2387,6 @@ vendor/etc/vintf/manifest/secure_element-service.xml
 vendor/lib64/hw/libEseUtils.so
 vendor/lib64/libGPQeSE.so
 vendor/lib64/vendor.xiaomi.hardware.aidl.mtdservice-V1-ndk_platform.so
-vendor/etc/hal_uuid_map_config.xml
-vendor/etc/hal_uuid_map_peridot.xml
 
 # Sensors
 odm/etc/sensors/config/ak7323.json
@@ -2503,6 +2401,10 @@ odm/etc/sensors/config/qmc6308_0.json
 odm/etc/sensors/config/qsh_ble.json
 odm/etc/sensors/config/qsh_camera_aon_front_1.json
 odm/etc/sensors/config/qsh_camera_common.json
+odm/etc/sensors/config/qsh_camera_imx688_4.json
+odm/etc/sensors/config/qsh_camera_imx688_4_sm8635.json
+odm/etc/sensors/config/qsh_camera_imx688_6.json
+odm/etc/sensors/config/qsh_camera_imx688_6_actuator.json
 odm/etc/sensors/config/sm8635_ak7323.json
 odm/etc/sensors/config/sm8635_bmi26x_0.json
 odm/etc/sensors/config/sm8635_default_sensors.json
@@ -2543,7 +2445,6 @@ odm/etc/sensors/config/sns_fmv_legacy.json
 odm/etc/sensors/config/sns_geomag_rv.json
 odm/etc/sensors/config/sns_gyro_cal.json
 odm/etc/sensors/config/sns_gyro_cal_dynamic.json
-odm/etc/sensors/config/sns_healthy_use_of_mobile.json
 odm/etc/sensors/config/sns_mag_cal.json
 odm/etc/sensors/config/sns_mag_cal_legacy.json
 odm/etc/sensors/config/sns_nonui.json
@@ -2561,10 +2462,6 @@ odm/etc/sensors/config/sns_tilt_sw_disabled.json
 odm/etc/sensors/config/sns_tilt_sw_enabled.json
 odm/etc/sensors/config/sns_tilt_to_wake.json
 odm/lib64/sensors.touch.detect.so
-odm/etc/sensors/config/qsh_camera_imx688_4.json
-odm/etc/sensors/config/qsh_camera_imx688_4_sm8635.json
-odm/etc/sensors/config/qsh_camera_imx688_6.json
-odm/etc/sensors/config/qsh_camera_imx688_6_actuator.json
 vendor/bin/hw/vendor.qti.hardware.sensorscalibrate-service
 vendor/bin/init.qcom.sensors.sh
 vendor/bin/sensors.qti
@@ -2577,7 +2474,6 @@ vendor/etc/init/vendor.sensors.sscrpcd.rc
 vendor/etc/sensor_diag.cfg
 vendor/etc/sensors/config/chre_dynamic_sensors.json
 vendor/etc/sensors/sns_reg_config
-vendor/lib64/hw/sensors.dynamic_sensor_hal.so
 vendor/etc/vintf/manifest/vendor.qti.hardware.sensorscalibrate.xml
 vendor/lib64/libsensor_calibration.so
 vendor/lib64/libsensorcal.so
@@ -2608,18 +2504,12 @@ vendor/etc/vintf/manifest/vendor.qti.hardware.soter-service.xml
 vendor/lib64/hw/vendor.qti.hardware.soter-impl.so
 vendor/lib64/vendor.qti.hardware.soter-V1-ndk.so
 
-# SXR
-vendor/bin/hw/sxrservice
-vendor/etc/seccomp_policy/sxr@2.0.policy
-vendor/lib64/libsxrservice.so
-
 # Thermal
 vendor/bin/mi_thermald
 vendor/etc/init/hw/init.mi_thermald.rc
 vendor/lib64/libthermalclient.so
 
 # Thermal configs
-odm/etc/setting.xml
 odm/etc/thermal-4k.conf
 odm/etc/thermal-arvr.conf
 odm/etc/thermal-boost.conf
@@ -2680,7 +2570,6 @@ vendor/lib64/libtime_genoff.so
 
 # Touchfeature
 odm/bin/hw/vendor.xiaomi.hw.touchfeature-service
-odm/bin/toucheventcheck
 odm/etc/init.panel_info.sh
 odm/etc/init/vendor.xiaomi.hw.touchfeature-service.rc
 odm/etc/vintf/manifest/vendor.xiaomi.hw.touchfeature-service.xml
@@ -2709,8 +2598,8 @@ vendor/lib64/libTrustedInputUtils.so
 vendor/lib64/libTrustedUIAIDL.so
 vendor/lib64/libTxPwrJni.so
 vendor/lib64/libloadtrusteduiapp.so
+vendor/lib64/libminksocket_vendor.so
 vendor/lib64/libsi.so
-vendor/lib64/libsilkyscrolls.so
 vendor/lib64/libtaautoload.so
 vendor/lib64/vendor.qti.hardware.trustedui-V1-ndk.so
 
@@ -2739,14 +2628,8 @@ vendor/lib64/vendor.qti.hardware.vpp@1.2.so
 vendor/lib64/vendor.qti.hardware.vpp@1.3.so
 
 # VPU firmware
-odm/firmware/vpu20_2v.mbn
-odm/firmware/vpu20_2v_unsigned.mbn
-odm/firmware/vpu20_4v.mbn
-odm/firmware/vpu20_4v_unsigned.mbn
 odm/firmware/vpu30_2v.mbn
-odm/firmware/vpu30_2v_unsigned.mbn
 odm/firmware/vpu33_4v.mbn
-odm/firmware/vpu33_4v_unsigned.mbn
 
 # Vibrator firmware
 odm/firmware/0_click_P_RTP.bin:vendor/etc/vibrator/effect_0.bin
