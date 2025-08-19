@@ -228,21 +228,6 @@ blob_fixups: blob_fixups_user_type = {
      'vendor/lib64/libagm.so'): blob_fixup()
         .replace_needed('libaudioroute.so', 'libaudioroute-v34.so'),  
 
-    'system_ext/bin/wfdservice64': blob_fixup()
-        .add_needed('libwfdservice_shim.so'),
-
-    'system_ext/lib64/libwfdmmsrc_system.so': blob_fixup()
-        .add_needed('libgui_shim.so'),
-
-    'system_ext/lib64/libwfdnative.so': blob_fixup()
-        .remove_needed('android.hidl.base@1.0.so')
-        .add_needed('libbinder_shim.so')
-        .add_needed('libinput_shim.so'),
-    
-    'system_ext/lib64/libwfdservice.so': blob_fixup()
-       .replace_needed('android.media.audio.common.types-V2-cpp.so', 'android.media.audio.common.types-V3-cpp.so')
-       .add_needed('libaudioclient_shim.so'),
-
     'vendor/bin/init.qcom.usb.sh': blob_fixup()
         .regex_replace('ro.product.marketname', 'ro.product.odm.marketname'),
 
