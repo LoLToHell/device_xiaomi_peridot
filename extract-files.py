@@ -254,8 +254,6 @@ blob_fixups: blob_fixups_user_type = {
     ): blob_fixup()
        .regex_replace('.*media_codecs_(google_audio|google_c2|google_telephony|google_video|vendor_audio).*\n', ''),
 
-    'vendor/etc/init/vendor.xiaomi.hardware.vibratorfeature.service.rc': blob_fixup()
-       .regex_replace(r'/odm/bin/', r'/vendor/bin/'),
     'vendor/lib64/libqcodec2_core.so': blob_fixup()
         .add_needed('libcodec2_shim.so'),
 
