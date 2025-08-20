@@ -281,6 +281,9 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/lib64/libqms_client.so': blob_fixup()
         .add_needed('libbinder_shim.so'),
 
+    'vendor/bin/xtra-daemon': blob_fixup()
+        .add_needed('libbinder_shim.so'),
+
     ('vendor/lib64/libcne.so',
      'vendor/bin/qms'): blob_fixup()
         .add_needed('libbinder_shim.so'),
