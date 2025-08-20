@@ -212,8 +212,8 @@ dalvik.vm.image-dex2oat-cpu-set=4,5,6,7
 dalvik.vm.image-dex2oat-threads=4
 
 # Dolby Vision
-ro.vendor.audio.dolby.vision.support=true
-debug.config.media.video.dolby_vision_suports=true
+ro.vendor.audio.dolby.vision.support=false
+debug.config.media.video.dolby_vision_suports=false
 
 # DPM
 persist.vendor.dpm.vndr.feature=1
