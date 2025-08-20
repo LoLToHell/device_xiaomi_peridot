@@ -17,7 +17,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_ven
 $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 
 # Dalvik vm configs
-$(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
+$(call inherit-product, frameworks/native/build/phone-xhdpi-8192-dalvik-heap.mk)
 
 # pKVM
 $(call inherit-product, packages/modules/Virtualization/apex/product_packages.mk)
@@ -336,7 +336,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/fstab.qcom
 
-$(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):libinit_peridot)
+$(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):init_xiaomi_peridot)
+
+# Keylayout
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/keylayout/uinput-goodix.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-goodix.kl
 
 # Keymint
 PRODUCT_PACKAGES += \
