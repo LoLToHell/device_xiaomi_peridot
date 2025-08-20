@@ -1,7 +1,7 @@
 # Audio
 type adsprpcd, domain;
 type audio_socket, file_type;
-type smartpa_type, file_type, vendor_file_type;
+type smartpa_type, fs_type, sysfs_type;
 type sysfs_sndctrl, sysfs_type, fs_type;
 
 # Camera
