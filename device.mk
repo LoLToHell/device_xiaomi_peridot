@@ -369,8 +369,7 @@ PRODUCT_PACKAGES += \
     libgatekeeper.vendor \
     libsoft_attestation_cert.vendor \
     libkeymaster_messages.vendor \
-    libkeymaster_portable.vendor \
-    libcppbor_external.vendor
+    libkeymaster_portable.vendor
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.device_id_attestation.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.device_id_attestation.xml \
@@ -572,13 +571,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.sensor.stepcounter.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.stepcounter.xml \
     frameworks/native/data/etc/android.hardware.sensor.stepdetector.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.stepdetector.xml
 
-# Shims
-PRODUCT_PACKAGES += \
-    libcodec2_shim \
-    libgui_shim \
-    libhidlbase_shim \
-    libinput_shim
-
 # Task Profiles
 PRODUCT_COPY_FILES += \
     system/core/libprocessgroup/profiles/task_profiles.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json \
@@ -729,7 +721,6 @@ PRODUCT_PACKAGES += \
     libwfdservice_shim.vendor \
     libgui_shim \
     libinput_shim.vendor \
-    libbinder_shim.vendor \
     libwfdaac_vendor \
     vendor.display.config@2.0 \
     vendor.qti.hardware.display.config-V5-ndk
