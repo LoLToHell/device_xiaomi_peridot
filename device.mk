@@ -276,7 +276,9 @@ PRODUCT_COPY_FILES += \
 
 # GNSS
 PRODUCT_PACKAGES += \
-    android.hardware.gnss-V3-ndk.vendor
+    android.hardware.gnss-V3-ndk.vendor \
+    libloc_net_iface \
+    libloc_net_iface.vendor
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.location.gps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.location.gps.xml
