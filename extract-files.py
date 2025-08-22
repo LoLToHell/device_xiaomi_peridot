@@ -95,6 +95,12 @@ blob_fixups: blob_fixups_user_type = {
     'odm/lib64/libmibokeh_845_video.so': blob_fixup()
        .add_needed('libwrapper_dlengine.so'),
 
+    'odm/lib64/camera/components/com.mi.node.mawsaliency.so': blob_fixup()
+       .add_needed('libwrapper_dlengine_shim.so'),
+
+    'odm/lib64/camera/components/com.mi.node.dlengine.so': blob_fixup()
+       .add_needed('libwrapper_dlengine_shim.so'),
+
     'odm/lib64/hw/camera.xiaomi.so': blob_fixup()
         .replace_needed('libui.so', 'libui-v34.so'),
 
