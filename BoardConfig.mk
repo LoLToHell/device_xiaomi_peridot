@@ -50,9 +50,8 @@ AUDIO_FEATURE_ENABLED_KEEP_ALIVE := true
 AUDIO_FEATURE_ENABLED_GEF_SUPPORT := true
 AUDIO_FEATURE_ENABLED_SVA_MULTI_STAGE := true
 BOARD_SUPPORTS_SOUND_TRIGGER := true
-TARGET_PROVIDES_LIBAR_PAL := true
-TARGET_PROVIDES_LIBAGM := true
-TARGET_USES_QCOM_MM_AUDIO := true
+TARGET_PROVIDES_AUDIO_HAL := true
+TARGET_USES_QCOM_MM_AUDIO := false
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := pineapple
@@ -77,7 +76,11 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     vendor/lineage/config/device_framework_matrix.xml
 
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/configs/hidl/compatibility_matrix.xml
-DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/hidl/manifest_vendor.xml
+DEVICE_MANIFEST_FILE := \
+    $(DEVICE_PATH)/configs/hidl/manifest_vendor.xml \
+    hardware/qcom-caf/sm8650/audio/primary-hal/configs/common/manifest_non_qmaa.xml \
+    hardware/qcom-caf/sm8650/audio/primary-hal/configs/common/manifest_non_qmaa_extn.xml
+
 ODM_MANIFEST_FILES := $(DEVICE_PATH)/configs/hidl/manifest_odm.xml
 
 # Inherit from proprietary files for miuicamera
@@ -193,7 +196,6 @@ TARGET_USERIMAGES_USE_F2FS := true
 
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
-SOONG_CONFIG_rfs_mpss_firmware_symlink_target := modem_firmware
 
 # Sepolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
@@ -202,7 +204,7 @@ SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/public
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
 
 # Vendor security patch
-VENDOR_SECURITY_PATCH := 2025-05-01
+VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
@@ -226,6 +228,12 @@ BOARD_AVB_VBMETA_SYSTEM_KEY_PATH := external/avb/test/data/testkey_rsa2048.pem
 BOARD_AVB_VBMETA_SYSTEM_ALGORITHM := SHA256_RSA2048
 BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX := $(PLATFORM_SECURITY_PATCH_TIMESTAMP)
 BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX_LOCATION := 2
+
+# Vibrator
+TARGET_QTI_VIBRATOR_EFFECT_LIB := libqtivibratoreffect.xiaomi
+SOONG_CONFIG_NAMESPACES += XIAOMI_VIBRATOR
+SOONG_CONFIG_XIAOMI_VIBRATOR := USE_EFFECT_STREAM
+SOONG_CONFIG_XIAOMI_VIBRATOR_USE_EFFECT_STREAM := true
 
 # WiFi
 BOARD_WLAN_DEVICE := qcwcn

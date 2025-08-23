@@ -64,17 +64,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     audioadsprpcd \
     audio.primary.default \
-    audio.primary.pineapple \
     audio.bluetooth.default \
     audio.r_submix.default \
     audio.usb.default \
     libaudioclient_shim.vendor
 
 PRODUCT_PACKAGES += \
-    libagm_compress_plugin \
-    libagm_mixer_plugin \
-    libagm_pcm_plugin \
-    libagmclient \
     libaudiochargerlistener \
     libaudioroute.vendor \
     libbatterylistener \
@@ -84,9 +79,7 @@ PRODUCT_PACKAGES += \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
-    libsndcardparser \
     libvolumelistener \
-    vendor.qti.hardware.pal@1.0.vendor
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/mixer_paths_overlay_static.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_cliffs/mixer_paths_overlay_static.xml \
@@ -110,6 +103,11 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.audio.low_latency.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.low_latency.xml \
     frameworks/native/data/etc/android.hardware.audio.pro.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.pro.xml \
     frameworks/native/data/etc/android.software.midi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.midi.xml
+
+PRODUCT_COPY_FILES += \
+    hardware/qcom-caf/sm8650/audio/primary-hal/configs/common/codec2/media_codecs_c2_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2_audio.xml \
+    hardware/qcom-caf/sm8650/audio/primary-hal/configs/common/codec2/service/1.0/c2audio.vendor.base-arm64.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/c2audio.vendor.base-arm64.policy \
+    hardware/qcom-caf/sm8650/audio/primary-hal/configs/common/codec2/service/1.0/c2audio.vendor.ext-arm64.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/c2audio.vendor.ext-arm64.policy
 
 # Bluetooth
 PRODUCT_PACKAGES += \
@@ -171,7 +169,8 @@ PRODUCT_PACKAGES += \
     libutilscallstack.vendor \
     libyuv.vendor \
     libwrapper_dlengine_shim \
-    libprocessgroup_shim
+    libprocessgroup_shim \
+    libui-v34
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.flash-autofocus.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.flash-autofocus.xml \
@@ -196,11 +195,21 @@ PRODUCT_COPY_FILES += \
 
 # Display
 PRODUCT_PACKAGES += \
+    vendor.display.config@1.11 \
     vendor.display.config@1.11.vendor \
+    vendor.display.config@2.0 \
+    vendor.display.config@2.0.vendor \
+    vendor.qti.hardware.display.allocator-service \
     vendor.qti.hardware.display.allocator@4.0.vendor \
+    vendor.qti.hardware.display.composer-service \
+    vendor.qti.hardware.display.composer-service.rc \
+    vendor.qti.hardware.display.composer-service.xml \
     vendor.qti.hardware.display.config-V2-ndk.vendor \
     vendor.qti.hardware.display.config-V5-ndk.vendor \
     vendor.qti.hardware.display.config-V7-ndk.vendor \
+    vendor.qti.hardware.display.demura-service \
+    vendor.qti.hardware.display.mapper@1.0.vendor \
+    vendor.qti.hardware.display.mapper@1.1.vendor \
     vendor.qti.hardware.display.mapper@2.0.vendor \
     vendor.qti.hardware.display.mapper@3.0.vendor \
     vendor.qti.hardware.display.mapper@4.0.vendor \
@@ -210,11 +219,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.qti.display_boot.rc \
     init.qti.display_boot.sh
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/displayconfig/display_id_4630946545580055171.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946545580055171.xml \
-    $(LOCAL_PATH)/configs/displayconfig/display_id_4630947033261136259.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630947033261136259.xml \
-    $(LOCAL_PATH)/configs/displayconfig/display_id_4630947195234848131.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630947195234848131.xml
 
 # DRM
 PRODUCT_PACKAGES += \
@@ -254,8 +258,11 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.1.vendor \
     android.hardware.graphics.composer@2.2.vendor \
     android.hardware.graphics.composer@2.3.vendor \
-    vendor.qti.hardware.display.composer-service.rc \
-    vendor.qti.hardware.display.composer-service.xml
+    android.hardware.graphics.mapper@4.0-impl-qti-display
+
+PRODUCT_PACKAGES += \
+    libgralloc.qti \
+    libqdMetaData
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.vulkan.compute-0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.compute-0.xml \
@@ -270,7 +277,9 @@ PRODUCT_COPY_FILES += \
 
 # GNSS
 PRODUCT_PACKAGES += \
-    android.hardware.gnss-V3-ndk.vendor
+    android.hardware.gnss-V3-ndk.vendor \
+    libloc_net_iface \
+    libloc_net_iface.vendor
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.location.gps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.location.gps.xml
@@ -320,7 +329,8 @@ PRODUCT_PACKAGES += \
     init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
     init.qcom.sh \
-    init.qti.media.sh
+    init.qti.media.sh \
+    init.foursemi.sh
 
 PRODUCT_PACKAGES += \
     init.qcom.rc \
@@ -403,6 +413,9 @@ PRODUCT_PACKAGES += \
     android.hardware.media.bufferpool2-V1-ndk.vendor \
     android.hardware.media.c2-V1-ndk.vendor
 
+PRODUCT_PACKAGES += \
+    libstagefright_foundation
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media/media_profiles_cliffs_v0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_cliffs_v0.xml \
 
@@ -417,6 +430,8 @@ PRODUCT_PACKAGES += \
     vendor_firmware_mnt_mountpoint \
     vendor_modem_firmware_mountpoint \
     vendor_vm-system_mountpoint
+
+$(call soong_config_set,rfs,mpss_firmware_symlink_target,modem_firmware)
 
 # Network
 PRODUCT_PACKAGES += \
@@ -534,10 +549,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     rfs_msm_mpss_readonly_mbnconfig_symlink
 
-# RenderScript
-PRODUCT_PACKAGES += \
-    android.hardware.renderscript@1.0-impl
-
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
@@ -620,7 +631,8 @@ PRODUCT_COPY_FILES += \
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal-V1-ndk.vendor \
-    android.hardware.thermal@2.0.vendor
+    android.hardware.thermal@2.0.vendor \
+    android.hardware.thermal@1.0.vendor
 
 # Touchscreen
 PRODUCT_COPY_FILES += \
@@ -660,10 +672,10 @@ PRODUCT_PACKAGES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    vibratorfeature-wrapper
+    vendor.qti.hardware.vibrator.service.xiaomi
 
-PRODUCT_PACKAGES += \
-    android.hardware.vibrator-V1-ndk_platform.vendor
+PRODUCT_COPY_FILES += \
+    hardware/xiaomi/vibrator/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
 
 # Verified boot
 PRODUCT_COPY_FILES += \
@@ -671,7 +683,6 @@ PRODUCT_COPY_FILES += \
 
 # VNDK
 PRODUCT_COPY_FILES += \
-    prebuilts/vndk/v33/arm64/arch-arm64-armv8-a/shared/vndk-core/libstagefright_foundation.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_foundation-v33.so \
     prebuilts/vndk/v34/arm64/arch-arm64-armv8-a/shared/vndk-core/libaudioroute.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioroute-v34.so
 
 # Weaver
@@ -714,20 +725,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.wifi.direct.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.direct.xml \
     frameworks/native/data/etc/android.hardware.wifi.passpoint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.passpoint.xml \
     frameworks/native/data/etc/android.hardware.wifi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.xml
-
-# WiFi Display
-PRODUCT_PACKAGES += \
-    android.media.audio.common.types-V3-cpp \
-    libdisplayconfig.system.qti \
-    libwfdservice_shim.vendor \
-    libgui_shim \
-    libinput_shim.vendor \
-    libwfdaac_vendor \
-    vendor.display.config@2.0 \
-    vendor.qti.hardware.display.config-V5-ndk
-
-PRODUCT_BOOT_JARS += \
-    WfdCommon
 
 # Vendor
 $(call inherit-product, vendor/xiaomi/peridot/peridot-vendor.mk)
