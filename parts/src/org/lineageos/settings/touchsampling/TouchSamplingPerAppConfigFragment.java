@@ -55,7 +55,7 @@ public class TouchSamplingPerAppConfigFragment extends PreferenceFragmentCompat 
         layout.setOrientation(LinearLayout.VERTICAL);
         mSearchBar = new EditText(context);
         mSearchBar.setId(View.generateViewId());
-        mSearchBar.setHint("Search apps...");
+        mSearchBar.setHint(R.string.touch_sampling_search_hint);
         mSearchBar.setInputType(android.text.InputType.TYPE_CLASS_TEXT);
         mSearchBar.setBackgroundResource(R.drawable.bg_search_rounded);
         mSearchBar.setPadding(24, 24, 24, 24);
@@ -83,7 +83,7 @@ public class TouchSamplingPerAppConfigFragment extends PreferenceFragmentCompat 
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         setPreferenceScreen(getPreferenceManager().createPreferenceScreen(getContext()));
         mCategory = new PreferenceCategory(getContext());
-        mCategory.setTitle("Configure Per-App Touch Sampling");
+        mCategory.setTitle(R.string.touch_sampling_per_app_title);
         getPreferenceScreen().addPreference(mCategory);
         mPm = requireContext().getPackageManager();
         mAllApps = mPm.getInstalledApplications(PackageManager.GET_META_DATA);

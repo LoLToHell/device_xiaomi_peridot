@@ -105,4 +105,9 @@
     <string name="charge_control_tile_enabled">Enabled</string>
     <string name="charge_control_tile_disabled">Disabled</string>
     <string name="charge_control_tile_subtitle">Stop at %1$d%%</string>
+
+    <!-- Touch Sampling -->
+    <string name="touch_sampling_per_app_title">Configure Per-App Touch Sampling</string>
+    <string name="touch_sampling_search_hint">Search apps...</string>
+
 </resources>

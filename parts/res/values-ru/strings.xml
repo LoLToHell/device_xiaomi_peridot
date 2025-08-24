@@ -118,4 +118,22 @@
     <string name="hp_left_gain">Усиление левого наушника</string>
     <string name="hp_right_gain">Усиление правого наушника</string>
 
+    <!-- Charge Control -->
+    <string name="charge_control_title">Контроль заряда батареи</string>
+    <string name="charge_control_summary">Контролируйте степень заряда батареи</string>
+    <string name="charge_control_main_switch_title">Включить контроль заряда батареи</string>
+    <string name="charge_control_footer_summary">Контроль заряда батареи может мешать адаптивной зарядке.</string>
+    <string name="kernel_node_access_error">Ошибка доступа к ноде ядра</string>
+    <string name="stop_charging_summary">Остановить зарядку батареи при достижении установленного значения</string>
+    <string name="stop_charging_title">Уровень заряда батареи</string>
+    <string name="stop_charging_set_to">Зарядка будет остановлена при достижении: %1$d%%.</string>
+    <string name="charge_control_tile_label">Контроль заряда</string>
+    <string name="charge_control_tile_enabled">Включено</string>
+    <string name="charge_control_tile_disabled">Отключено</string>
+    <string name="charge_control_tile_subtitle">Остановить заряд на %1$d%%</string>
+
+    <!-- Touch Sampling -->
+    <string name="touch_sampling_per_app_title">Настройка частоты сенсора для приложений</string>
+    <string name="touch_sampling_search_hint">Поиск приложений...</string>
+
 </resources> 
