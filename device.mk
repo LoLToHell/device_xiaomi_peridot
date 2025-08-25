@@ -677,10 +677,10 @@ PRODUCT_PACKAGES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.vibrator.service.xiaomi
+    vendor.qti.hardware.vibrator.service.xiaomi.peridot
 
 PRODUCT_COPY_FILES += \
-    hardware/xiaomi/vibrator/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
+    $(LOCAL_PATH)/vibrator/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
 
 # Verified boot
 PRODUCT_COPY_FILES += \
