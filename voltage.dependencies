@@ -3,18 +3,24 @@
     "remote": "VoltageOS-Devices",
     "repository"  : "vendor_xiaomi_peridot",
     "target_path" : "vendor/xiaomi/peridot",
-    "branch": "15"
+    "branch": "16"
   },
   {
-    "remote": "yaap-extended",
+    "remote": "GuidixX",
     "repository"  : "hardware_xiaomi",
     "target_path" : "hardware/xiaomi",
-    "branch": "fifteen"
+    "branch": "16"
   },
   {
     "remote": "VoltageOS-Devices",
     "repository"  : "device_xiaomi_perodot-kernel",
     "target_path" : "device/xiaomi/peridot-kernel",
-    "branch": "15"
+    "branch": "16"
+  },
+  {
+    "remote": "GuidixX",
+    "repository"  : "packages_apps_ViPER4AndroidFX",
+    "target_path" : "packages/apps/ViPER4AndroidFX",
+    "branch": "v4a"
   }
 ]
