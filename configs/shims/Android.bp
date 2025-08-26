@@ -11,3 +11,10 @@ cc_library_shared {
     shared_libs: ["libui","libutils"],
     vendor: true,
 }
+
+cc_library_shared {
+    name: "libperf_shim",
+    srcs: ["libperf_shim/libperf_shim.cpp"],
+    shared_libs: ["libc", "libdl", "libm"],
+    vendor: true,
+}
