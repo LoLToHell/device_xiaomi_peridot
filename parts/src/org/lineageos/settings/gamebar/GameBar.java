@@ -157,10 +157,10 @@ public class GameBar {
                 if (mDoubleTapCaptureEnabled) {
                     if (GameDataExport.getInstance().isCapturing()) {
                         GameDataExport.getInstance().stopCapture();
-                        Toast.makeText(mContext, "Capture Stopped", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(mContext, R.string.game_bar_doubletap_capture_stop_toast, Toast.LENGTH_SHORT).show();
                     } else {
                         GameDataExport.getInstance().startCapture();
-                        Toast.makeText(mContext, "Capture Started", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(mContext, R.string.game_bar_doubletap_capture_start_toast, Toast.LENGTH_SHORT).show();
                     }
                     return true;
                 }
@@ -175,7 +175,12 @@ public class GameBar {
                         .edit()
                         .putString("game_bar_format", mOverlayFormat)
                         .apply();
-                    Toast.makeText(mContext, "Overlay Format: " + mOverlayFormat, Toast.LENGTH_SHORT).show();
+                     Toast.makeText(mContext, 
+                        String.format(mContext.getString(R.string.game_bar_overlay_format_toast), 
+                        "full".equals(mOverlayFormat) ? 
+                            mContext.getString(R.string.game_bar_format_entries_full) : 
+                            mContext.getString(R.string.game_bar_format_entries_minimal)), 
+                        Toast.LENGTH_SHORT).show();
                     updateStats();
                     return true;
                 }
@@ -183,7 +188,7 @@ public class GameBar {
             }
         });
     }
-
+    
     public void applyPreferences() {
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(mContext);
 

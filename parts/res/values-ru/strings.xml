@@ -81,6 +81,106 @@
     <string name="overlay_permission_denied">Разрешение на оверлей отклонено</string>
     <string name="game_bar_tile_label">Игровая панель</string>
     <string name="game_bar_tile_description">Переключить игровой оверлей</string>
+    <string name="game_bar_enable_title">Включить игровой оверлей</string>
+
+    <!-- Overlay Features -->
+    <string name="overlay_features_title">Функции оверлея</string>
+    <string name="game_bar_fps_enable_title">Оверлей FPS</string>
+    <string name="game_bar_fps_enable_summary">Показывать текущий FPS на экране</string>
+    <string name="game_bar_temp_enable_title">Температура устройства</string>
+    <string name="game_bar_temp_enable_summary">Показывать температуру устройства (батареи)</string>
+    <string name="game_bar_cpu_usage_enable_title">Загрузка ЦП</string>
+    <string name="game_bar_cpu_usage_enable_summary">Показывать текущий процент использования ЦП</string>
+    <string name="game_bar_cpu_clock_enable_title">Тактовая частота ЦП</string>
+    <string name="game_bar_cpu_clock_enable_summary">Показывать текущие тактовые частоты ЦП для каждого ядра</string>
+    <string name="game_bar_cpu_temp_enable_title">Температура ЦП</string>
+    <string name="game_bar_cpu_temp_enable_summary">Показывать температуру ЦП (thermal_zone0)</string>
+    <string name="game_bar_ram_enable_title">Использование ОЗУ</string>
+    <string name="game_bar_ram_enable_summary">Показывать текущее использование ОЗУ в МБ</string>
+    <string name="game_bar_ram_speed_enable_title">Частота ОЗУ</string>
+    <string name="game_bar_ram_speed_enable_summary">Показывать текущую частоту ОЗУ (шины) в ГГц</string>    
+    <string name="game_bar_ram_temp_enable_title">Температура ОЗУ</string>
+    <string name="game_bar_ram_temp_enable_summary">Показывать текущую температуру ОЗУ</string>        
+    <string name="game_bar_gpu_usage_enable_title">Загрузка ГП</string>
+    <string name="game_bar_gpu_usage_enable_summary">Показывать процент использования ГП</string>
+    <string name="game_bar_gpu_clock_enable_title">Тактовая частота ГП</string>
+    <string name="game_bar_gpu_clock_enable_summary">Показывать текущую тактовую частоту ГП</string>
+    <string name="game_bar_gpu_temp_enable_title">Температура ГП</string>
+    <string name="game_bar_gpu_temp_enable_summary">Показывать текущую температуру ГП</string>
+
+    <!-- FPS Measurement Method -->
+    <string name="fps_measurement_method_title">Метод измерения FPS</string>
+    <string name="game_bar_fps_method_title">Выбрать метод FPS</string>
+    <string name="game_bar_fps_method_summary">Выберите между новым методом API (по умолчанию) и старым Sysfs</string>
+
+    <!-- Customization -->
+    <string name="customization_title">Настройка</string>
+    <string name="game_bar_text_size_title">Размер текста</string>
+    <string name="game_bar_text_size_summary">Настроить размер текста оверлея</string>
+    <string name="game_bar_background_alpha_title">Прозрачность фона</string>
+    <string name="game_bar_background_alpha_summary">Настроить прозрачность фона</string>
+    <string name="game_bar_corner_radius_title">Радиус углов оверлея</string>
+    <string name="game_bar_corner_radius_summary">Настроить скругление углов оверлея</string>
+    <string name="game_bar_padding_title">Отступы оверлея</string>
+    <string name="game_bar_padding_summary">Настроить пространство вокруг статистики</string>
+    <string name="game_bar_item_spacing_title">Интервал между элементами</string>
+    <string name="game_bar_item_spacing_summary">Настроить расстояние между строками оверлея</string>
+    <string name="game_bar_update_interval_title">Интервал обновления</string>
+    <string name="game_bar_update_interval_summary">Установите, как часто обновляются значения оверлея</string>
+    <string name="game_bar_title_color_title">Цвет заголовков статистики</string>
+    <string name="game_bar_title_color_summary">Цвет для текста \'FPS\', \'Temp\', \'CPU\', и т.д.</string>
+    <string name="game_bar_value_color_title">Цвет значений статистики</string>
+    <string name="game_bar_value_color_summary">Цвет для числовых значений (например, \'29\', \'32.0°C\')</string>
+    <string name="game_bar_position_title">Позиция оверлея</string>
+    <string name="game_bar_position_summary">Выберите положение оверлея на экране</string>
+    <string name="game_bar_format_title">Формат оверлея</string>
+    <string name="game_bar_format_summary">Выберите между полным или минималистичным отображением</string>
+    <string name="game_bar_overlay_format_toast">Формат оверлея изменен на: %s</string>
+    <string name="game_bar_format_entries_full">Полный</string>
+    <string name="game_bar_format_entries_minimal">Минималистичный</string>
+
+    <!-- Split Config -->
+    <string name="split_config_title">Конфигурация разделения</string>
+    <string name="game_bar_split_mode_title">Режим разделения</string>
+    <string name="game_bar_split_mode_summary">Выберите расположение бок о бок или стопкой</string>
+
+    <!-- Overlay Gesture Controls -->
+    <string name="overlay_gesture_controls_title">Управление жестами оверлея</string>
+    <string name="game_bar_single_tap_toggle_title">Включить переключение одним касанием</string>
+    <string name="game_bar_single_tap_toggle_summary">Коснитесь один раз, чтобы переключиться между полным и минималистичным форматами оверлея</string>
+    <string name="game_bar_doubletap_capture_title">Включить захват двойным касанием</string>
+    <string name="game_bar_doubletap_capture_summary">Двойное касание оверлея для начала/остановки записи логов</string>
+    <string name="game_bar_longpress_enable_title">Включить долгое нажатие</string>
+    <string name="game_bar_longpress_enable_summary">Долгое нажатие на оверлей для доступа к настройкам игровой панели</string>
+    <string name="game_bar_longpress_timeout_title">Длительность долгого нажатия</string>
+    <string name="game_bar_longpress_timeout_summary">Установите длительность, необходимую для долгого нажатия на оверлей</string>
+
+    <!-- Capture Logs -->
+    <string name="capture_logs_title">Запись журналов</string>
+    <string name="game_bar_capture_start_title">Начать запись</string>
+    <string name="game_bar_capture_start_summary">Начать захват FPS и данных о производительности в реальном времени</string>
+    <string name="game_bar_capture_stop_title">Остановить запись</string>
+    <string name="game_bar_capture_stop_summary">Остановить захват FPS и данных о производительности в реальном времени</string>
+    <string name="game_bar_capture_export_title">Экспорт данных журналов игровой панели</string>
+    <string name="game_bar_capture_export_summary">Сохранить захваченные данные FPS и производительности в CSV файл</string>
+    <string name="game_bar_capture_start_toast">Запись данных начата</string>
+    <string name="game_bar_capture_stop_toast">Запись данных остановлена</string>
+    <string name="game_bar_capture_export_toast">Данные журналов экспортированы в файл</string>
+    <string name="game_bar_doubletap_capture_start_toast">Захват начат</string>
+    <string name="game_bar_doubletap_capture_stop_toast">Захват остановлен</string>
+
+    <!-- Per-App GameBar -->
+    <string name="game_bar_per_app_title">Игровая панель для каждого приложения</string>
+    <string name="game_bar_auto_enable_title">Авто-включение панели для выбранных приложений</string>
+    <string name="game_bar_auto_enable_summary">Если включено, выбранные приложения будут автоматически включать панель, даже если главный переключатель выключен</string>
+    <string name="game_bar_app_selector_title">Настроить приложения</string>
+    <string name="game_bar_app_selector_summary">Выберите, для каких приложений автоматически включать панель</string>
+    <string name="game_bar_app_remover_title">Удалить выбранные приложения</string>
+    <string name="game_bar_app_remover_summary">Удалить приложения из списка авто-включения</string>
+    <string name="game_bar_app_remover_activity_title">Удалить приложения для авто-включения</string>
+    <string name="game_bar_app_selector_activity_title">Выбрать приложения для игровой панели</string>
+    <string name="game_bar_app_added_toast">добавлено</string>
+    <string name="game_bar_app_removed_toast">удалено</string>
 
     <!-- Turbo Charging -->
     <string name="turbo_charge_title">Турбо зарядка</string>

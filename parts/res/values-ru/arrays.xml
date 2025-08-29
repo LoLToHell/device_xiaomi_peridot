@@ -6,8 +6,8 @@
 <resources>
     <!-- FPS Method -->
     <string-array name="game_bar_fps_method_entries">
-        <item>New API (Default)</item>
-        <item>Legacy Sysfs</item>
+        <item>Новый API (по умолчанию)</item>
+        <item>Старый Sysfs</item>
     </string-array>
 
     <string-array name="game_bar_fps_method_values" translatable="false">
@@ -17,10 +17,10 @@
     
     <!-- Update Interval -->
     <string-array name="fps_overlay_update_interval_entries">
-        <item>Every 500ms</item>
-        <item>Every second</item>
-        <item>Every 2 seconds</item>
-        <item>Every 5 seconds</item>
+        <item>Каждые 500мс</item>
+        <item>Каждую секунду</item>
+        <item>Каждые 2 секунды</item>
+        <item>Каждые 5 секунд</item>
     </string-array>
 
     <string-array name="fps_overlay_update_interval_values" translatable="false">
@@ -32,13 +32,13 @@
 
     <!-- Position -->
     <string-array name="fps_overlay_position_entries">
-        <item>Top Left</item>
-        <item>Top Center</item>
-        <item>Top Right</item>
-        <item>Bottom Left</item>
-        <item>Bottom Center</item>
-        <item>Bottom Right</item>
-        <item>Custom Draggable</item>
+        <item>Сверху слева</item>
+        <item>Сверху по центру</item>
+        <item>Сверху справа</item>
+        <item>Снизу слева</item>
+        <item>Снизу по центру</item>
+        <item>Снизу справа</item>
+        <item>Перетаскиваемый</item>
     </string-array>
 
     <string-array name="fps_overlay_position_values" translatable="false">
@@ -53,14 +53,14 @@
 
     <!-- Overlay Color -->
     <string-array name="fps_overlay_color_entries">
-        <item>White</item>
-        <item>Crimson</item>
-        <item>Fruit Salad</item>
-        <item>Royal Blue</item>
-        <item>Amber</item>
-        <item>Teal</item>
-        <item>Electric Violet</item>
-        <item>Magenta</item>
+        <item>Белый</item>
+        <item>Малиновый</item>
+        <item>Салатовый</item>
+        <item>Королевский синий</item>
+        <item>Янтарный</item>
+        <item>Бирюзовый</item>
+        <item>Электрик</item>
+        <item>Пурпурный</item>
     </string-array>
 
     <string-array name="fps_overlay_color_values" translatable="false">
@@ -76,8 +76,8 @@
 
     <!-- Overlay Format -->
     <string-array name="game_bar_format_entries">
-        <item>Full</item>
-        <item>Minimal</item>
+        <item>Полный</item>
+        <item>Минимальный</item>
     </string-array>
 
     <string-array name="game_bar_format_values" translatable="false">
@@ -87,8 +87,8 @@
 
     <!-- Split Mode -->
     <string-array name="game_bar_split_mode_entries">
-        <item>Side-by-Side</item>
-        <item>Stacked</item>
+        <item>Бок о бок</item>
+        <item>Стопкой</item>
     </string-array>
 
     <string-array name="game_bar_split_mode_values" translatable="false">
@@ -98,10 +98,10 @@
 
     <!-- Long press Timeout -->
     <string-array name="game_bar_longpress_entries">
-        <item>1 second</item>
-        <item>3 seconds</item>
-        <item>5 seconds</item>
-        <item>10 seconds</item>
+        <item>1 секунда</item>
+        <item>3 секунды</item>
+        <item>5 секунд</item>
+        <item>10 секунд</item>
     </string-array>
 
     <string-array name="game_bar_longpress_values" translatable="false">
@@ -113,11 +113,11 @@
     
     <!-- Turbo Charging Modes -->
     <string-array name="turbo_modes_entries">
-        <item>18W</item>
-        <item>33W</item>
-        <item>45W</item>
-        <item>60W</item>
-        <item>90W</item>
+        <item>18Вт</item>
+        <item>33Вт</item>
+        <item>45Вт</item>
+        <item>60Вт</item>
+        <item>90Вт</item>
     </string-array>
 
     <string-array name="turbo_modes_values" translatable="false">
