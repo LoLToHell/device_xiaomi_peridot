@@ -206,6 +206,7 @@ ro.camera.enableCamera1MaxZsl=1
 persist.vendor.camera.perflock.enable=0
 
 # Dalvik
+dalvik.vm.dex2oat64.enabled=true
 dalvik.vm.dex2oat-cpu-set=4,5,6,7
 dalvik.vm.dex2oat-threads=4
 dalvik.vm.image-dex2oat-cpu-set=4,5,6,7
@@ -362,6 +363,7 @@ vendor.mm.enable.qcom_parser=16777215
 # Power
 ro.vendor.extension_library=libqti-perfd-client.so
 ro.vendor.perf.scroll_opt=1
+vendor.perf.framepacing.enable=1
 
 # QCOM
 ro.soc.manufacturer=QTI
