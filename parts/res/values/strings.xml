@@ -184,6 +184,11 @@
     <string name="htsr_app_removed">%1$s removed from auto-enable list.</string>
     <string name="htsr_app_selector_activity_title">Select Apps for High Touch Polling</string>
     <string name="htsr_app_remover_activity_title">Remove Auto-Enable Apps</string>
+    <string name="htsr_auto_enable_title">Auto Enable High Touch Polling Rate</string>
+    <string name="htsr_auto_enable_apps_title">Auto-enable High Touch Polling for Selected Apps</string>
+    <string name="htsr_auto_enable_apps_summary">If turned on, selected apps will auto-enable High touch polling even if the main switch is off</string>
+    <string name="htsr_per_app_config_title">Configure Apps</string>
+    <string name="htsr_per_app_config_summary">Choose which apps will auto-enable High Touch Polling</string>
 
     <!-- Sound Control -->
     <string name="sound_control_title">Sound Control</string>

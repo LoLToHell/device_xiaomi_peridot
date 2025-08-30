@@ -28,18 +28,18 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:title="Auto Enable High Touch Polling Rate">
+        android:title="@string/htsr_auto_enable_title">
 
         <SwitchPreferenceCompat
             android:defaultValue="true"
             android:key="htsr_auto_enable_selected_apps"
-            android:title="Auto-enable High Touch Polling for Selected Apps"
-            android:summary="If turned on, selected apps will auto-enable High touch polling even if the main switch is off"
+            android:title="@string/htsr_auto_enable_apps_title"
+            android:summary="@string/htsr_auto_enable_apps_summary"
             android:showDefault="false" />
 
         <Preference
             android:key="htsr_per_app_config"
-            android:title="Configure Apps"
-            android:summary="Choose which apps will auto-enable High Touch Polling" />
+            android:title="@string/htsr_per_app_config_title"
+            android:summary="@string/htsr_per_app_config_summary" />
     </PreferenceCategory>
 </PreferenceScreen>

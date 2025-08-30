@@ -199,7 +199,7 @@
     <string name="toast_turbo_on">Турбо зарядка включена</string>
     <string name="toast_turbo_off">Турбо зарядка выключена</string>
 
-    <!-- Высокая частота опроса касаний -->
+    <!-- High Touch Polling -->
     <string name="htsr_title">Высокая частота опроса касаний</string>
     <string name="htsr_enable_title">Улучшенная отзывчивость касаний</string>
     <string name="htsr_enable_summary">Увеличивает частоту опроса касаний для уменьшения задержки ввода и более плавного взаимодействия</string>
@@ -210,6 +210,11 @@
     <string name="htsr_app_removed">%1$s удалено из списка авто-включения.</string>
     <string name="htsr_app_selector_activity_title">Выберите приложения для высокой частоты опроса касаний</string>
     <string name="htsr_app_remover_activity_title">Удалить приложения авто-включения</string>
+    <string name="htsr_auto_enable_title">Автоматическое включение высокой частоты опроса касаний</string>
+    <string name="htsr_auto_enable_apps_title">Авто-включение высокой частоты опроса для выбранных приложений</string>
+    <string name="htsr_auto_enable_apps_summary">Если включено, выбранные приложения будут автоматически включать высокую частоту опроса касаний, даже если главный переключатель выключен</string>
+    <string name="htsr_per_app_config_title">Настроить приложения</string>
+    <string name="htsr_per_app_config_summary">Выберите, для каких приложений автоматически включать высокую частоту опроса касаний</string>
 
     <!-- Sound Control -->
     <string name="sound_control_title">Управление звуком</string>
