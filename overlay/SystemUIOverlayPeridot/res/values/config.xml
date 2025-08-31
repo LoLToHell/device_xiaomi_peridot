@@ -83,7 +83,7 @@
     <bool name="config_disableSmartPixelsOnUDFPS">true</bool>
 
     <!-- If not zero, limits the internal screen recorder's framerate to the set value. -->
-    <integer name="config_screenRecorderMaxFramerate">90</integer>
+    <integer name="config_screenRecorderMaxFramerate">120</integer>
 
     <!-- Override value to use for proximity sensor.  -->
     <string name="proximity_sensor_type" translatable="false">android.sensor.light</string>
