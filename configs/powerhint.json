@@ -627,7 +627,7 @@
       "PowerHint": "FIXED_PERFORMANCE",
       "Node": "ThermalMessage",
       "Duration": 0,
-      "Value": "6"
+      "Value": "19"
     },
     {
       "PowerHint": "FIXED_PERFORMANCE",
