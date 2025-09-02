@@ -66,8 +66,7 @@ PRODUCT_PACKAGES += \
     audio.primary.default \
     audio.bluetooth.default \
     audio.r_submix.default \
-    audio.usb.default \
-    libaudioclient_shim.vendor
+    audio.usb.default
 
 PRODUCT_PACKAGES += \
     libaudiochargerlistener \
