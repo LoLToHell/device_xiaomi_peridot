@@ -10,6 +10,7 @@ SPAMMY_LOG_TAGS := \
     libsensor-boledalgo \
     libsensor-parseRGB \
     libsensor-qshcalapi \
+    HWUI \
     sensors \
     sensors-hal \
     vendor.qti.hardware.display.composer-service \
