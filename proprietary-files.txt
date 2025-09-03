@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from peridot 15 AQ3A.240912.001 OS2.0.202.0.VNPMIXM release-keys
+# All unpinned blobs below are extracted from peridot 15 AQ3A.240912.001 OS2.0.204.0.VNPMIXM release-keys
 
 # ACDB
 odm/etc/acdbdata/Fluence/foursemi/Fluence_acdb_cal_fs.acdb:odm/etc/acdbdata/cliffs_mtp/foursemi/Fluence_acdb_cal_fs.acdb
@@ -525,57 +525,6 @@ odm/etc/camera/xiaomi/thirdpartyjpegsnapshot.json
 odm/etc/camera/xiaomi/thirdpartyrawsupernightjpeg.json
 odm/etc/camera/xiaomi/thirdpartyrawsupernightyuv.json
 odm/etc/camera/xiaomi/thirdpartysnapshot.json
-odm/etc/camera/102_SummerDay.png
-odm/etc/camera/103_Fantasy.png
-odm/etc/camera/104_Meet.png
-odm/etc/camera/105_WindSing.png
-odm/etc/camera/106_Lost.png
-odm/etc/camera/107_Central.png
-odm/etc/camera/108_NorthernEurope.png
-odm/etc/camera/109_Rome.png
-odm/etc/camera/110_BlackGold.png
-odm/etc/camera/111_GreenOrange.png
-odm/etc/camera/112_CyberPunk.png
-odm/etc/camera/113_BlackIce.png
-odm/etc/camera/121_Bleach.png
-odm/etc/camera/122_Thriller.png
-odm/etc/camera/123_TealOrange.png
-odm/etc/camera/124_JapaneseStyle.png
-odm/etc/camera/125_Latin.png
-odm/etc/camera/126_Fantasy2.png
-odm/etc/camera/127_Creamy.png
-odm/etc/camera/128_Sepia.png
-odm/etc/camera/129_Vivid.png
-odm/etc/camera/130_Natural.png
-odm/etc/camera/131_Monochrome.png
-odm/etc/camera/132_MonochromeHighContrast.png
-odm/etc/camera/133_MonochromeBrown.png
-odm/etc/camera/134_MonochromeBlue.png
-odm/etc/camera/135_Classical.png
-odm/etc/camera/136_Filene.png
-odm/etc/camera/137_GreenNight.png
-odm/etc/camera/138_LiteratureAndArt.png
-odm/etc/camera/139_OrangeHoney.png
-odm/etc/camera/140_Romance.png
-odm/etc/camera/141_FR500.png
-odm/etc/camera/142_FE250.png
-odm/etc/camera/143_RedLantern.png
-odm/etc/camera/144_RedHero.png
-odm/etc/camera/145_TactileBlackWhite.png
-odm/etc/camera/146_TactileGreen.png
-odm/etc/camera/147_Neutral.png
-odm/etc/camera/148_Mild.png
-odm/etc/camera/149_LilyWhite.png
-odm/etc/camera/150_Bright.png
-odm/etc/camera/151_Fresh.png
-odm/etc/camera/152_Limpid.png
-odm/etc/camera/153_KC64.png
-odm/etc/camera/154_V250.png
-odm/etc/camera/155_H400.png
-odm/etc/camera/156_ColdWhite.png
-odm/etc/camera/157_Native.png
-odm/etc/camera/158_BWClassical.png
-odm/etc/camera/159_Flowers.png
 odm/etc/camera/GpuKernelRepo.pb
 odm/etc/camera/af_class_all.dlc
 odm/etc/camera/af_class_human.dlc
