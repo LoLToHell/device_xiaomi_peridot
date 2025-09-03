@@ -6,16 +6,19 @@
     <SeekBarPreference
         android:key="mic_gain"
         android:title="@string/mic_gain"
+        settings:units="%"
         android:min="0"
         android:max="20"/>
     <SeekBarPreference
         android:key="hp_left_gain"
         android:title="@string/hp_left_gain"
+        settings:units="%"
         android:min="0"
         android:max="20"/>
     <SeekBarPreference
         android:key="hp_right_gain"
         android:title="@string/hp_right_gain"
+        settings:units="%"
         android:min="0"
         android:max="20"/>
 </PreferenceScreen>
