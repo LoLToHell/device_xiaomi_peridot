@@ -506,9 +506,6 @@
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="1" />
     </carrier_config>
-    <carrier_config mcc="250" mnc="02">
-        <boolean name="carrier_volte_available_bool" value="true" />
-    </carrier_config>
     <carrier_config mcc="259" mnc="01">
         <boolean name="fallback_sms_not_allowed_in_roaming" value="true" />
     </carrier_config>
@@ -6856,28 +6853,7 @@
         <boolean name="carrier_stk_dialog_not_disappear" value="true" />
         <boolean name="com.google.android.dialer.display_wifi_calling_button_bool" value="true" />
     </carrier_config>
-    <carrier_config mcc="250" mnc="01">
-        <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <int name="smsToMmsTextThreshold" value="4" />
-        <int name="maxMessageSize" value="512000" />
-        <boolean name="mtk_carrier_wfc_get_location_always" value="true" />
-        <string-array name="carrier_metered_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="dun" />
-            <item value="supl" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="250" mnc="02">
-        <string-array name="carrier_metered_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="dun" />
-            <item value="supl" />
-        </string-array>
-    </carrier_config>
     <carrier_config mcc="250" mnc="39">
-        <boolean name="mtk_carrier_wfc_get_location_always" value="true" />
-    </carrier_config>
-    <carrier_config mcc="250" mnc="20">
         <boolean name="mtk_carrier_wfc_get_location_always" value="true" />
     </carrier_config>
     <carrier_config mcc="250" mnc="17">
@@ -6890,28 +6866,6 @@
         <boolean name="mtk_carrier_wfc_get_location_always" value="true" />
     </carrier_config>
     <carrier_config mcc="250" mnc="03">
-        <boolean name="mtk_carrier_wfc_get_location_always" value="true" />
-    </carrier_config>
-    <carrier_config mcc="250" mnc="99">
-        <boolean name="config_wifi_disconnect_delay_for_vowifi_detach" value="true" />
-        <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <boolean name="carrier_stk_dialog_timout_customized" value="true" />
-        <boolean name="mtk_disable_conference_management_after_srvcc" value="false" />
-    </carrier_config>
-    <carrier_config mcc="250" mnc="50">
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
-        <int name="carrier_default_wfc_ims_mode_int" value="2" />
-    </carrier_config>
-    <carrier_config mcc="250" mnc="20">
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
-        <boolean name="mtk_disable_conference_management_after_srvcc" value="false" />
-        <string-array name="carrier_metered_apn_types_strings" num="3">
-            <item value="default" />
-            <item value="dun" />
-            <item value="supl" />
-        </string-array>
-    </carrier_config>
-    <carrier_config mcc="250" mnc="20">
         <boolean name="mtk_carrier_wfc_get_location_always" value="true" />
     </carrier_config>
     <carrier_config mcc="257" mnc="01">
@@ -8476,13 +8430,6 @@
         <boolean name="editable_wfc_roaming_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
     </carrier_config>
-    <carrier_config mcc="250" mnc="02">
-        <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <boolean name="config_editable_wfc_when_calling" value="false" />
-    </carrier_config>
-    <carrier_config mcc="250" mnc="20">
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
-    </carrier_config>
     <carrier_config mcc="283" mnc="05">
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
@@ -9354,9 +9301,6 @@
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
     </carrier_config>
-    <carrier_config mcc="250" mnc="11">
-        <int name="carrier_default_wfc_ims_mode_int" value="2" />
-    </carrier_config>
     <carrier_config mcc="999" mnc="29">
         <boolean name="carrier_disable_sa_mode_bool" value="false" />
     </carrier_config>
@@ -9386,10 +9330,6 @@
     </carrier_config>
     <!--西班牙 ES JAZZTEL-->
     <carrier_config mcc="214" mnc="21" spn="JAZZTEL">
-        <boolean name="carrier_volte_unavailable_bool" value="true" />
-    </carrier_config>
-    <!--俄罗斯 RU SberMobile-->
-    <carrier_config mcc="250" mnc="50">
         <boolean name="carrier_volte_unavailable_bool" value="true" />
     </carrier_config>
     <!--缅甸 MM MPT-->
@@ -9769,34 +9709,76 @@
     <!--东欧 Eastern Europe-->
     <!--俄罗斯 RU Megafone-->
     <carrier_config mcc="250" mnc="02">
-        <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_wfc_ims_available_bool" value="true" />
-    </carrier_config>
-    <!--俄罗斯 RU MTS-->
-    <carrier_config mcc="250" mnc="01">
+        <boolean name="config_editable_wfc_when_calling" value="false" />
+        <int name="carrier_default_wfc_ims_mode_int" value="2" />
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="dun" />
+            <item value="supl" />
+        </string-array>
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+        <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <!--俄罗斯 RU MTS-->
+    <carrier_config mcc="250" mnc="01">
+        <int name="carrier_default_wfc_ims_mode_int" value="2" />
+        <int name="smsToMmsTextThreshold" value="4" />
+        <int name="maxMessageSize" value="512000" />
+        <boolean name="mtk_carrier_wfc_get_location_always" value="true" />
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="dun" />
+            <item value="supl" />
+        </string-array>
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+        <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="true" />
     </carrier_config>
     <!--俄罗斯 RU Yota-->
     <carrier_config mcc="250" mnc="11">
+        <int name="carrier_default_wfc_ims_mode_int" value="2" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
     </carrier_config>
     <!--俄罗斯 RU Beeline-->
     <carrier_config mcc="250" mnc="99">
-        <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_wfc_ims_available_bool" value="true" />
-    </carrier_config>
-    <!--俄罗斯 RU Tele2-->
-    <carrier_config mcc="250" mnc="20">
+        <boolean name="config_wifi_disconnect_delay_for_vowifi_detach" value="true" />
+        <int name="carrier_default_wfc_ims_mode_int" value="2" />
+        <boolean name="carrier_stk_dialog_timout_customized" value="true" />
+        <boolean name="mtk_disable_conference_management_after_srvcc" value="false" />
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+        <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="true" />
+    </carrier_config>
+    <!--俄罗斯 RU Tele2-->
+    <carrier_config mcc="250" mnc="20">
+        <boolean name="mtk_disable_conference_management_after_srvcc" value="false" />
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="dun" />
+            <item value="supl" />
+        </string-array>
+        <boolean name="mtk_carrier_wfc_get_location_always" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+        <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="true" />
     </carrier_config>
     <!--俄罗斯 RU Sberbank-->
     <carrier_config mcc="250" mnc="50">
+        <int name="carrier_default_wfc_ims_mode_int" value="2" />
+        <boolean name="carrier_volte_unavailable_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+        <boolean name="carrier_default_wfc_ims_roaming_enabled_bool" value="true" />
     </carrier_config>
     <!--俄罗斯 RU Motiv-->
     <carrier_config mcc="250" mnc="35">
@@ -10303,6 +10285,39 @@
         <boolean name="carrier_vt_available_bool" value="true" />
     </carrier_config>
     <!--中东非 Middle East&Africa-->
+    <!-- GE Silknet Geocell -->
+    <carrier_config mcc="282" mnc="01">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="dun" />
+            <item value="supl" />
+        </string-array>
+	</carrier_config>
+    <!-- GE Magtigsm -->
+	<carrier_config mcc="282" mnc="02">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="dun" />
+            <item value="supl" />
+        </string-array>
+	</carrier_config>
+    <!-- GE Cellfie -->
+    <carrier_config mcc="282" mnc="04">
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default" />
+            <item value="dun" />
+            <item value="supl" />
+        </string-array>
+    </carrier_config>
     <!--土耳其 TR Vodafone-->
     <carrier_config mcc="286" mnc="02">
         <boolean name="carrier_volte_available_bool" value="true" />
