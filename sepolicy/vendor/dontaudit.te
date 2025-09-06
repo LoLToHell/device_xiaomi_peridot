@@ -9,3 +9,6 @@ dontaudit {
 
 # SurfaceFlinger
 dontaudit surfaceflinger vendor_file:file read;
+
+# BootAnimation
+dontaudit bootanim vendor_file:file read;
