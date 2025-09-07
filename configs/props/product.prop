@@ -24,6 +24,9 @@ vendor.audio.use.sw.ape.decoder=true
 vendor.audio_hal.period_size=192
 vendor.voice.path.for.pcm.voip=true
 
+# Disable Skia tracing by default
+debug.hwui.skia_atrace_enabled=false
+
 # Low Memory Killer Daemon
 ro.lmk.log_stats=false
 ro.lmk.debug=false

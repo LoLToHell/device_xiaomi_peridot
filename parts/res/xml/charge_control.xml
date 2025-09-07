@@ -25,7 +25,7 @@
         android:max="100"
         android:min="0"
         settings:units="%"
-        android:defaultValue="40" />
+        android:defaultValue="100" />
 
     <com.android.settingslib.widget.FooterPreference
         android:key="charge_control_footer"

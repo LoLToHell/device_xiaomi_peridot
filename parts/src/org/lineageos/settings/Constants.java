@@ -28,5 +28,5 @@ public class Constants {
     public static final String KEY_RESUME_CHARGING = "resume_charging";
     public static final String NODE_STOP_CHARGING = "/sys/class/qcom-battery/input_suspend";
     public static final String DEFAULT_STOP_CHARGING = "100";
-    public static final String DEFAULT_RESUME_CHARGING = "40";
+    public static final String DEFAULT_RESUME_CHARGING = "100";
 }

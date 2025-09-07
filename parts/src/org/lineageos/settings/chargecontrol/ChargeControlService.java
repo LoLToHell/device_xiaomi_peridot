@@ -80,7 +80,7 @@ public class ChargeControlService extends Service {
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
         boolean enabled = prefs.getBoolean(Constants.KEY_CHARGE_CONTROL, false);
         int stopValue = prefs.getInt(Constants.KEY_STOP_CHARGING, 100);
-        int resumeValue = prefs.getInt(Constants.KEY_RESUME_CHARGING, 40);
+        int resumeValue = prefs.getInt(Constants.KEY_RESUME_CHARGING, 100);
         int batteryLevel = mLastBatteryLevel;
         if (!enabled) {
             FileUtils.writeLine(Constants.NODE_STOP_CHARGING, "0");

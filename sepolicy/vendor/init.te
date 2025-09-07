@@ -30,3 +30,6 @@ r_dir_file(init, sysfs_batteryinfo)
 
 # Allow init to write to dirty_writeback_centisecs
 allow init proc:file { open write };
+
+# MiCharge
+allow init vendor_sysfs_qcom_battery:file setattr;

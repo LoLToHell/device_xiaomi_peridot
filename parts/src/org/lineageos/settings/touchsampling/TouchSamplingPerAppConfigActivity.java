@@ -24,8 +24,8 @@ public class TouchSamplingPerAppConfigActivity extends CollapsingToolbarBaseActi
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_game_bar_app_selector); // Reuse existing FrameLayout
-        setTitle(R.string.touch_sampling_per_app_title);
+        setContentView(R.layout.activity_touch_sample_app_selector); // Reuse existing FrameLayout
+        setTitle("Configure Per-App Touch Sampling");
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
                 .replace(R.id.content_frame, new TouchSamplingPerAppConfigFragment())
