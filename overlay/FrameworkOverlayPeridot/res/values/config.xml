@@ -1163,15 +1163,4 @@
      If it is not supported due to modem limitations, USSD send over the CS pipe instead.-->
     <bool name="config_allow_ussd_over_ims">true</bool>
 
-     <!-- Whether to enable fp unlock when screen turns off on udfps devices -->
-     <bool name="config_screen_off_udfps_enabled">true</bool>
-
-     <!-- Default value for fp screen off unlock toggle, it only works for the devices that support
-         fp screen off unlock-->
-     <bool name="config_screen_off_udfps_default_on">true</bool>
-
-    <!-- Boolean indicating USSD over IMS is allowed.
-     If it is not supported due to modem limitations, USSD send over the CS pipe instead.-->
-    <bool name="config_allow_ussd_over_ims">true</bool>
-
 </resources>
